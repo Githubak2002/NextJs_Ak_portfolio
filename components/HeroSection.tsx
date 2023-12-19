@@ -5,6 +5,8 @@ import { BiLogoGmail } from "react-icons/bi";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 
+import {motion} from 'framer-motion'
+
 const btncss = "mt-5 sm:mt-10 p-3 border hover:scale-x-125 hover:border-none transition-all  w-fit txtOutlineCSS";
 
 const HeroSection = () => {
@@ -12,7 +14,13 @@ const HeroSection = () => {
 
   return (
     // <section className="HeroFontCSS  "> 
-    <section className="txtOutlineCSS  "> 
+
+    <motion.section 
+    initial={{scale:0,opacity:0}} 
+    animate={{scale:1, opacity:1}} 
+    transition={{delay:0.5,duration:0.8}} 
+    className="txtOutlineCSS "
+    > 
       <main className="lg:mt-0 sm:mt-12 min-h-[80vh] px-2 sm:p-20 sm:py-0 flexCenter flex-col lg:flex-row ">
 
         <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
@@ -82,7 +90,7 @@ const HeroSection = () => {
           />
         </div>
       </main>
-    </section>
+    </motion.section>
   );
 };
 

@@ -2,15 +2,19 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 // import { navArray } from '../constants/constant.js';
+import { contactArray } from '@/constants/constant';
 
 import 'remixicon/fonts/remixicon.css'
 import StarsCanvas from './StarBackground';
+// import { motion } from 'framer-motion';
+
 const navCss = "gradient-text hover:scale-125 transition-all"; 
+const dobbleLineCSS = "w-full h-1 border-white border-y-[0.1px]";
 // const navCss = "hover:scale-125 transition-all hover:gradient-text"; 
 const Nav = () => {
 
-    const [menu,setMenu] = useState("hidden");
-    // const [menu,setMenu] = useState("flex");
+    // const [menu,setMenu] = useState("hidden");
+    const [menu,setMenu] = useState("flex");
   
   return (
     <nav className='flex justify-between items-center sm:px-8 py-[2vh] font-sans '>
@@ -46,21 +50,24 @@ const Nav = () => {
             {/* <Link className={navCss} href="/contact" onClick={() => setMenu("hidden")}> Contact → </Link> */}
         </div>    
 
-        <div className='flexCenter absolute bottom-24 w-[82%] right-0'>  
-            <div className='w-full border border-white'/>
+        <div className='absolute bottom-24 right-0 flex-col w-[72%] flex gap-y-3'>
+        {
+          contactArray.map((ele,i) => (
+            <div key={i} className='flexCenter w-full  '>  
+              <div className=
+              {dobbleLineCSS}/>
+              <Link href={ele.link} target='blank' className='font-sans px-2 text-sm w-fit font-thin flex'>{ele.social}</Link>
+              <div className={dobbleLineCSS}/>
+            </div> 
+          ))
+        }
+        </div>
+        {/* <div className='flexCenter absolute bottom-24 w-[82%] right-0'>  
+            <div className='w-full h-1 border-white border-y-[0.1px]'/>
             <h2 className='font-sans px-2 text-sm w-fit font-thin '>anuragofficial2023@gmail.com </h2>
-            <div className='w-full border border-white'/>
-        </div> 
+            <div className='w-full h-1 border-white border-y-[0.1px]'/>
+        </div>  */}
 
-          {/* {
-            navArray.map((ele,i) => (
-            <div className='flexCenter' key={i}>
-              <div className='w-full border-2 border-white'/>
-              <h2 className='px-2 w-fit font-thin'> {ele.content} </h2>
-              <div className='w-full border-2 border-white'/>
-            </div>
-            ))
-          } */}
             
       </main>
 

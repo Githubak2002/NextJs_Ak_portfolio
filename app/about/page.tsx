@@ -1,12 +1,19 @@
+'use client'
 import Image from "next/image";
 import React from "react";
 import { education, experience } from "@/constants/constant.js";
 import Footer from "@/components/Footer";
 
+// import {motion} from 'framer-motion'
+// import AOS from 'aos'
+// import 'aos/dist/aos.css'; // You can also use <link> for styles
+// AOS.init();
+
 const About = () => {
   return (
-    <section className="aboutPgFont">
-      <h2 className="text-center text-3xl sm:text-6xl my-4 txtOutlineCSS">
+    
+    <section data-aos="zoom-in-down" className="aboutPgFont">
+      <h2  className="text-center text-3xl sm:text-6xl my-4 txtOutlineCSS">
         ABOUT ME
       </h2>
       

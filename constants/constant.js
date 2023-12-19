@@ -1,15 +1,15 @@
-// --- nav bar ---
+// ========== NAB BAR ==========
 export const navArray = [
   {
-    // --- write your email ---
+    // ========== write your email ==========
     content:"anuragofficial2023@gmail.com", 
   },
   // {
-  //   // --- write github if there ---
+  //   // ========== write github if there ==========
   //   content:"https://github.com/Githubak2002"
   // },
   // {
-  //   // --- write linkedin if there ---
+  //   // ========== write linkedin if there ==========
   //   content:"https://www.linkedin.com/in/anuraglohar"
   // },
 ]
@@ -81,7 +81,7 @@ export const experience = [
     details:"A dedicated member of the team name - Yuva Shakti Developing the solution website."
   },
   { title:"Industrial Training - SKIT Jaipur",
-    subTitle:"Web Development | 18 jul - 4 aug 2022",
+    subTitle:"Web Development |18 jul - 4 aug 2022",
     details:"Developed UI of a website with different food items. Front-end using HTML, CSS and Bootstrap 5."
   },
   // { title:"",
@@ -111,7 +111,7 @@ export const education = [
 
 // ================ CONTACT ================
 
-export const ContactArrat = [
+export const contactArray = [
   {
     social:"GitHub",
     link:"https://github.com/Githubak2002"

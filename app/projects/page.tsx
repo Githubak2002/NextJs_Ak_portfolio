@@ -4,6 +4,8 @@ import { projectsArray } from "../../constants/constant.js";
 import Link from 'next/link';
 import Footer from "@/components/Footer";
 
+import {motion} from 'framer-motion'
+
 import "remixicon/fonts/remixicon.css";
 
 const Projects = () => {
