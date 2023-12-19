@@ -13,8 +13,8 @@ const dobbleLineCSS = "w-full h-1 border-white border-y-[0.1px]";
 // const navCss = "hover:scale-125 transition-all hover:gradient-text"; 
 const Nav = () => {
 
-    // const [menu,setMenu] = useState("hidden");
-    const [menu,setMenu] = useState("flex");
+    const [menu,setMenu] = useState("hidden");
+    // const [menu,setMenu] = useState("flex");
   
   return (
     <nav className='flex justify-between items-center sm:px-8 py-[2vh] font-sans '>
