@@ -10,7 +10,8 @@ const Projects = () => {
   return (
     // <section className="projectsFontCSS px-[3%] sm:px-[8%] mb-10">
     <section className="projectsFontCSS px-3 sm:px-0">
-      <h2 className="txtOutlineCSS my-4 sm:my-6 text-3xl sm:text-6xl text-center font-bold ">
+      
+      <h2 className="text-center text-3xl sm:text-6xl my-4 txtOutlineCSS">
         PROJECTS
       </h2>
 

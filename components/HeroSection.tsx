@@ -11,20 +11,19 @@ const HeroSection = () => {
   // const router = useRouter();
 
   return (
-    <section className="HeroFontCSS  ">
+    // <section className="txtOutlineCSS   ">
+    <section className="HeroFontCSS   "> 
       <main className="lg:mt-0 sm:mt-12 min-h-[80vh] px-2 sm:p-20 sm:py-0 flexCenter flex-col lg:flex-row ">
 
         <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-3">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-3">
           {/* <h1 className="font-black mb-3 text-2xl sm:text-4xl"> */}
             Hello! 👋🏼 I{" "}
             <sup>
               <i className="ri-single-quotes-r mx-[-6px] sm:mx-[-20px]" />
             </sup>{" "}
             m <br />{" "}
-            {/* <span className=" text-transparent bg-clip-text bg-gradient-to-r  from-[#5b6bfedc] to-[#925ef2f6]"> */}
-            <span className=" gradient-text2 ">
-            {/* <span className=" text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-pink-400"> */}
+            <span className=" gradient-text2 txtOutlineCSS1 text-4xl sm:text-6xl ">
               {" "}
               Anurag Lohar{" "}
             </span>
@@ -32,11 +31,13 @@ const HeroSection = () => {
 
           {/* React text TypeAnimation */}
           <TypeAnimation
-            className="font-bold sm:text-5xl text-2xl "
+            className="font-bold sm:text-5xl text-2xl"
             sequence={[
-              "Web Developer",
-              1000,
               "Frontend WebD",
+              1000,
+              "Web Designer",
+              1000,
+              "Full Stack WebD",
               1000,
               "3D Designer",
               1000,
@@ -62,14 +63,14 @@ const HeroSection = () => {
           </div>
 
           {/* --- contacts logo links → lin git mail --- */}
-          <div className="mt-10 text-2xl sm:text-6xl flexCenter gap-x-4 lg:justify-start ">
-          <Link className="hover:scale-110 transition-all" href="https://github.com/Githubak2002" target="blank">
+          <div className="mt-10 text-4xl sm:text-6xl flexCenter gap-x-4 lg:justify-start ">
+          <Link className="hover:scale-125 transition-all" href="https://github.com/Githubak2002" target="blank">
               <i className="ri-github-line font-thin" />
             </Link>
-            <Link className="hover:scale-110 transition-all" href="https://www.linkedin.com/in/anuraglohar" target="blank">
+            <Link className="hover:scale-125 transition-all" href="https://www.linkedin.com/in/anuraglohar" target="blank">
               <i className="ri-linkedin-fill " />
             </Link>
-            <Link className="hover:scale-110 transition-all" href="mailto:anuragofficial2023@gmail.com" target="blank">
+            <Link className="hover:scale-125 transition-all" href="mailto:anuragofficial2023@gmail.com" target="blank">
               <BiLogoGmail />
             </Link>
           </div>

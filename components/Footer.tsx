@@ -21,7 +21,7 @@ const Footer = () => {
       </h2>
 
       {/* ==== LOGO LINKS ==== */}
-      <div className="flexCenter gap-4 text-xl sm:text-3xl ">
+      <div className="flexCenter gap-4 text-3xl sm:text-5xl ">
         <Link href="https://github.com/Githubak2002" target="blank">
           <i className="ri-github-line font-thin" />
         </Link>

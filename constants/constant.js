@@ -73,15 +73,15 @@ export const projectsArray = [
 
 export const experience = [
   { title:"6 Weeks Inter with IBM Skill-Build",
-    subTitle:"Frontend Developer • July - August 2023",
+    subTitle:"Frontend Developer | July - August 2023",
     details:"Started and Dived into REACT JS - a new journey towards Frontend Web developer. From here on ward, my journey as a Frontend developer began, creating projects with React.js, APIs, and Tailwind CSS etc..."
   },
-  { title:"Smart India Hackathon -(SIH 2023)",
-    subTitle:"Smart India Hackathon →Sep 2023",
+  { title:"Smart India Hackathon (SIH 2023)",
+    subTitle:"Smart India Hackathon | Sep 2023",
     details:"A dedicated member of the team name - Yuva Shakti Developing the solution website."
   },
   { title:"Industrial Training - SKIT Jaipur",
-    subTitle:"Web Development 18 July – 4 August 2022",
+    subTitle:"Web Development | 18 jul - 4 aug 2022",
     details:"Developed UI of a website with different food items. Front-end using HTML, CSS and Bootstrap 5."
   },
   // { title:"",

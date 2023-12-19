@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,17 +37,45 @@ body {
 .projectsFontCSS{
   /* font-family: 'Marcellus', serif; */
   font-family: monospace;
+  
 }
 .HeroFontCSS{
   font-family: 'Acme', sans-serif;
 }
 .aboutPgFont{
-  font-family: 'Marcellus', serif;
   font-family: monospace;
+  font-family: 'Marcellus', serif;
 }
 .logoFontCSS{
   font-family: 'Zeyada', cursive;
 }
+
+/* ============ Text outline CSS ============ */
+.txtOutlineCSS{
+  font-family: 'Rubik Doodle Shadow';
+}
+.txtOutlineCSS1{
+  font-family: 'Black Ops One', sans-serif;
+}
+
+.txtOutlineCSS3 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(228, 207, 255);
+  background-image: transparent;
+  color:transparent;
+}
+.txtOutlineCSS2{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(228, 207, 255);
+	color: white;
+	/* font-size: 40px; */
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				  1px -1px 0 #000,
+				 -1px -1px 0 #000;
+}
+
+
 
 /* ========= gradient text/bg ========= */
 .gradient-text {
@@ -60,23 +92,6 @@ body {
 }
 .gradient-bg{
   background: linear-gradient(45deg,rgba(31, 31, 251, 0.72), rgba(175, 3, 175, 0.74))
-}
-
-/* ============ Text outline CSS ============ */
-.txtOutlineCSS {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(228, 207, 255);
-  background-image: transparent;
-  color:transparent;
-}
-
-.txtOutlineCSS2{
-	color: white;
-	font-size: 40px;
-	text-shadow: -1px 1px 0 #000,
-				  1px 1px 0 #000,
-				  1px -1px 0 #000,
-				 -1px -1px 0 #000;
 }
 
 

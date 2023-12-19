@@ -6,18 +6,18 @@ import Footer from "@/components/Footer";
 const About = () => {
   return (
     <section className="aboutPgFont">
-      <h2 className="text-center font-black text-6xl my-4 txtOutlineCSS   ">
+      <h2 className="text-center text-3xl sm:text-6xl my-4 txtOutlineCSS">
         ABOUT ME
       </h2>
 
       {/* === IMG === */}
       <div className="mx-auto w-fit ">
-        <Image src="/imgs/abt2.png" alt="abt_png" height={310} width={360} />
+        <Image src="/imgs/abt3.png" alt="abt_png" height={310} width={360} />
       </div>
 
       {/* === EXPERIENCE === */}
-      <h2 className="txtOutlineCSS text-center font-semibold text-3xl my-3">
-        🧑🏼‍💻 EXPERIENCE 🧑🏼‍💻
+      <h2 className="txtOutlineCSS text-center text-2xl sm:text-4xl my-3">
+        EXPERIENCE 
       </h2>
 
       <main className="p-2 flexCenter flex-col gap-8">
@@ -34,7 +34,7 @@ const About = () => {
       </main>
 
       {/* === EDUCATION === */}
-      <h2 className="txtOutlineCSS text-center font-semibold text-3xl mt-20 mb-3 ">
+      <h2 className="txtOutlineCSS text-center text-2xl sm:text-4xl my-3">
         📖 EDUCATION 📖
       </h2>
 
