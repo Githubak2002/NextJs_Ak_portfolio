@@ -40,7 +40,7 @@ export const projectsArray = [
     repoLink:"https://github.com/Githubak2002/Redux-store-DB-server",
   },
 
-  { name:"Ui to Functional Website",
+  { name:"Ui to Functional Web",
     imgurl:"/projectsImgs/ui to react website.png",
     content:"Transforming UI designs into responsive, functional websites with React Router integration and more...",
     liveLink:"https://ui-to-website.netlify.app",
@@ -49,9 +49,15 @@ export const projectsArray = [
   
   { name:"Ui to Bank Website",
     imgurl:"/projectsImgs/ui to bank website.png",
-    content:" Converting a Ui design to a fully responsive website. Practicing Tailwind Css... with React Js and much more.  #Javascript mastary",
+    content:" Converting a Ui design to a fully responsive website. Practicing Tailwind Css with React Js and much more...  Thanks to - #Javascript mastary",
     liveLink:"https://ui-to-bank-website.netlify.app",
     repoLink:"https://github.com/Githubak2002/bank-website-frontend",
+  },
+  { name:"Portfolio HTML CSS JS",
+    imgurl:"/projectsImgs/portfolio.png",
+    content:"Practiced Html, css and javascript to create my first ever portfolio To start with React js. Displaying various projects in a fully responsive manner. ",
+    liveLink:"https://githubak2002.github.io/akportfolio/",
+    repoLink:"https://github.com/Githubak2002/akportfolio",
   },
 
   // { name:"",
@@ -63,14 +69,28 @@ export const projectsArray = [
 ]
 
 // --------- ABOUT ---------
+// blender 3d with framer motion strip
 
 export const experience = [
-  {
-
-  }
+  { title:"6 Weeks Inter with IBM Skill-Build",
+    subTitle:"Frontend Developer • July - August 2023",
+    details:"Started and Dived into REACT JS - a new journey towards Frontend Web developer. From here on ward, my journey as a Frontend developer began, creating projects with React.js, APIs, and Tailwind CSS etc..."
+  },
+  { title:"Smart India Hackathon -(SIH 2023)",
+    subTitle:"Smart India Hackathon →Sep 2023",
+    details:"A dedicated member of the team name - Yuva Shakti Developing the solution website."
+  },
+  { title:"Industrial Training - SKIT Jaipur",
+    subTitle:"Web Development 18 July – 4 August 2022",
+    details:"Developed UI of a website with different food items. Front-end using HTML, CSS and Bootstrap 5."
+  },
+  // { title:"",
+  //   subTitle:"",
+  //   details:""
+  // },
 ] 
 
-export const Education = [
+export const education = [
   {
     heading:"School 10th",
     detail1:"School - St. Marry covent school jaipur, Rajasthan",

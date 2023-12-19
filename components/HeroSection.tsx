@@ -5,13 +5,13 @@ import { BiLogoGmail } from "react-icons/bi";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 
-const btncss = "mt-5 sm:mt-10 py-3 px-5 border-2 rounded-full w-fit font-bold";
+const btncss = "mt-5 sm:mt-10 p-2 font-sans border-2 w-fit font-bold";
 
 const HeroSection = () => {
   // const router = useRouter();
 
   return (
-    <section className="HeroFontCSS ">
+    <section className="HeroFontCSS  ">
       <main className="lg:mt-0 sm:mt-12 min-h-[80vh] px-2 sm:p-20 sm:py-0 flexCenter flex-col lg:flex-row ">
 
         <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
@@ -32,7 +32,7 @@ const HeroSection = () => {
 
           {/* React text TypeAnimation */}
           <TypeAnimation
-            className="font-bold sm:text-5xl text-xl "
+            className="font-bold sm:text-5xl text-2xl "
             sequence={[
               "Web Developer",
               1000,
@@ -47,7 +47,14 @@ const HeroSection = () => {
             repeat={Infinity}
           />
 
-          <div className="flex lg:flex-row flex-col flexStart">
+          {/* <div className="flex lg:flex-row flex-col flexStart">
+            <Link href="https://drive.google.com/file/d/18dbHCECfPZSGMeMZ7VpLSQt4MWRQwwNV/view?usp=sharing" target="blank" className={`${btncss} lg:mr-2`}>Resume → </Link>
+            <Link href="/contact" className={`${btncss} lg:ml-2`}>
+              Contact me
+            </Link>
+          </div> */}
+
+          <div className="flexCenter lg:flexStart gap-3">
             <Link href="https://drive.google.com/file/d/18dbHCECfPZSGMeMZ7VpLSQt4MWRQwwNV/view?usp=sharing" target="blank" className={`${btncss} lg:mr-2`}>Resume → </Link>
             <Link href="/contact" className={`${btncss} lg:ml-2`}>
               Contact me
@@ -56,15 +63,15 @@ const HeroSection = () => {
 
           {/* --- contacts logo links → lin git mail --- */}
           <div className="mt-10 text-2xl sm:text-6xl flexCenter gap-x-4 lg:justify-start ">
-            <a href="https://github.com/Githubak2002" target="blank">
+          <Link className="hover:scale-110 transition-all" href="https://github.com/Githubak2002" target="blank">
               <i className="ri-github-line font-thin" />
-            </a>
-            <a href="https://www.linkedin.com/in/anuraglohar" target="blank">
+            </Link>
+            <Link className="hover:scale-110 transition-all" href="https://www.linkedin.com/in/anuraglohar" target="blank">
               <i className="ri-linkedin-fill " />
-            </a>
-            <a href="mailto:anuragofficial2023@gmail.com" target="blank">
+            </Link>
+            <Link className="hover:scale-110 transition-all" href="mailto:anuragofficial2023@gmail.com" target="blank">
               <BiLogoGmail />
-            </a>
+            </Link>
           </div>
         </div>
         

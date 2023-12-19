@@ -2,12 +2,14 @@ import React from "react";
 import Image from "next/image";
 import { projectsArray } from "../../constants/constant.js";
 import Link from 'next/link';
+import Footer from "@/components/Footer";
 
 import "remixicon/fonts/remixicon.css";
 
 const Projects = () => {
   return (
-    <section className="projectsFontCSS px-[3%] sm:px-[8%] mb-10">
+    // <section className="projectsFontCSS px-[3%] sm:px-[8%] mb-10">
+    <section className="projectsFontCSS px-3 sm:px-0">
       <h2 className="txtOutlineCSS my-4 sm:my-6 text-3xl sm:text-6xl text-center font-bold ">
         PROJECTS
       </h2>
@@ -26,11 +28,11 @@ const Projects = () => {
               className="w-full sm:max-w-[420px] sm:h-[280px] h-auto hover:scale-105 hover:opacity-50 cursor-pointer transition-all"
             />
           </Link>
-          <h2 className="font-bold px-2 sm:px-3 text-2xl sm:text-3xl">
+          <h2 className="font-bold font-sans px-2 sm:px-3 text-2xl sm:text-3xl">
             {ele.name}
           </h2>
           <h3
-            className="px-2 sm:px-3 font-thin"
+            className="px-2 sm:px-3 font-thin text-base"
           >
             {ele.content}
           </h3>
@@ -48,6 +50,9 @@ const Projects = () => {
       ))}
       </div>
 
+
+
+    <Footer />
     </section>
   );
 };
