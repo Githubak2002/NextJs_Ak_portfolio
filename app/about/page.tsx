@@ -28,10 +28,10 @@ const About = () => {
 
       <div className="" >
       {/* === IMG === */}
-      <div className="mx-auto w-fit  sm:px-0 px-2">
+      <div className="mx-auto w-fit h-auto sm:px-0 px-2">
         <Image src="/imgs/abt3.png" alt="abt_png" height={310} width={360} />
       </div>
-      <h2 className=" px-3 mx-auto max-w-[690px] mb-10 leading-10 text-xl ms:text-2xl text-justify sm:text-center">I am passionate about picking up new talents, developing them, and using them to solve the real world problems. I constantly gain the knowledge and abilities that will help me to deal with the problems in the real world. I believe that I have the capability to face the problems and find a workable solution.</h2>
+      <h2 className=" px-3 mx-auto max-w-[690px] mb-10 leading-8 text-md ms:text-2xl text-justify sm:text-center">I am passionate about picking up new talents, developing them, and using them to solve the real world problems. I constantly gain the knowledge and abilities that will help me to deal with the problems in the real world. I believe that I have the capability to face the problems and find a workable solution.</h2>
       </div>
 
 
@@ -40,7 +40,7 @@ const About = () => {
         EXPERIENCE 
       </h2>
 
-      <main className="p-2 flexCenter flex-col gap-8 text-lg sm:text-xl">
+      <main className="p-2 flexCenter flex-col gap-8 text-md sm:text-xl">
         {experience.map((ele, i) => (
           <div
             key={i}
@@ -60,7 +60,7 @@ const About = () => {
       📖 EDUCATION 📖
       </h2>
 
-      <main className="p-2 flexCenter flex-col gap-8 text-lg sm:text-xl">
+      <main className="p-2 flexCenter flex-col gap-8 text-md sm:text-xl">
         {education.map((ele, i) => (
           <div
             key={i}
