@@ -50,7 +50,7 @@ const Nav = () => {
             {/* <Link className={navCss} href="/contact" onClick={() => setMenu("hidden")}> Contact → </Link> */}
         </div>    
 
-        <div className='absolute bottom-24 right-0 flex-col w-[72%] flex gap-y-3'>
+        {/* <div className='absolute bottom-24 right-0 flex-col w-[72%] flex gap-y-3'>
         {
           contactArray.map((ele,i) => (
             <div key={i} className='flexCenter w-full  '>  
@@ -61,12 +61,12 @@ const Nav = () => {
             </div> 
           ))
         }
-        </div>
-        {/* <div className='flexCenter absolute bottom-24 w-[82%] right-0'>  
+        </div> */}
+        <div className='flexCenter absolute bottom-24 w-[82%] right-0'>  
             <div className='w-full h-1 border-white border-y-[0.1px]'/>
             <h2 className='font-sans px-2 text-sm w-fit font-thin '>anuragofficial2023@gmail.com </h2>
             <div className='w-full h-1 border-white border-y-[0.1px]'/>
-        </div>  */}
+        </div> 
 
             
       </main>
