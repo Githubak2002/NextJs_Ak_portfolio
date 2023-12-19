@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { projectsArray } from "../../Constants/constant";
+import { projectsArray } from "../../Constants/constant.js";
 import Link from 'next/link';
 
 import "remixicon/fonts/remixicon.css";
