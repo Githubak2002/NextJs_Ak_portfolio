@@ -8,13 +8,13 @@ import "remixicon/fonts/remixicon.css";
 const Projects = () => {
   return (
     <section className="projectsFontCSS px-[3%] sm:px-[8%] mb-10">
-      <h2 className="my-4 sm:my-6 text-3xl sm:text-6xl text-center font-bold ">
+      <h2 className="txtOutlineCSS my-4 sm:my-6 text-3xl sm:text-6xl text-center font-bold ">
         PROJECTS
       </h2>
 
       <div className="mt-12 sm:mt-20 flexCenter gap-5 sm:gap-10 flex-wrap flex-col sm:flex-row">
       {projectsArray.map((ele, i) => (
-        <main key={i} className="border-2 border-white rounded-xl overflow-hidden flex flex-col gap-4 w-full sm:max-w-[420px] h-auto ">
+        <main key={i} className="border-[1px] border-white rounded-xl overflow-hidden flex flex-col gap-4 w-full sm:max-w-[420px] h-auto ">
           <Link href={ele.liveLink} target="blank" className="flexCenter w-fit overflow-hidden">
             <Image
               src={ele.imgurl}
@@ -22,6 +22,7 @@ const Projects = () => {
               // fill
               height={1220}
               width={1280}
+              // className="w-full sm:max-w-[380px] sm:h-[240px] h-auto hover:scale-105 hover:opacity-50 cursor-pointer transition-all"
               className="w-full sm:max-w-[420px] sm:h-[280px] h-auto hover:scale-105 hover:opacity-50 cursor-pointer transition-all"
             />
           </Link>

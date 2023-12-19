@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { BiLogoGmail } from "react-icons/bi";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 const btncss = "mt-5 sm:mt-10 py-3 px-5 border-2 rounded-full w-fit font-bold";
 
@@ -47,10 +48,10 @@ const HeroSection = () => {
           />
 
           <div className="flex lg:flex-row flex-col flexStart">
-            <button className={`${btncss} lg:mr-2`}>Resume → </button>
-            <a href="/contact" className={`${btncss} lg:ml-2`}>
+            <Link href="https://drive.google.com/file/d/18dbHCECfPZSGMeMZ7VpLSQt4MWRQwwNV/view?usp=sharing" target="blank" className={`${btncss} lg:mr-2`}>Resume → </Link>
+            <Link href="/contact" className={`${btncss} lg:ml-2`}>
               Contact me
-            </a>
+            </Link>
           </div>
 
           {/* --- contacts logo links → lin git mail --- */}

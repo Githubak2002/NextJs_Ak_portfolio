@@ -72,15 +72,36 @@ export const experience = [
 
 export const Education = [
   {
+    heading:"School 10th",
+    detail1:"School - St. Marry covent school jaipur, Rajasthan",
+    detail2:"10th - Result - 73%",
+  },
+  {
+    heading:"12th ~ 2nd PUC",
+    detail1:"College - SBM Jain College, JC Road Bangalore, Karnatak",
+    detail2:"12th ~ 2nd PUC - Result - 86.5%",
+  },
+  {
     heading:"B.Tech CS 2021 - 25",
-    detail:"College - SKIT jaipur, Rajasthan  2nd sem Result - 8.89 CGPA"
+    detail1:"College - SKIT jaipur, Rajasthan",
+    detail2:"Aggregate CGPA - 8.67 CGPA till 3rd sem",
+  }
+]
+
+
+// ================ CONTACT ================
+
+export const ContactArrat = [
+  {
+    social:"GitHub",
+    link:"https://github.com/Githubak2002"
   },
   {
-    heading:"12th - (PUC)",
-    detail:""
+    social:"LinkedIn",
+    link:"https://www.linkedin.com/in/anuraglohar"
+  },{
+    social:"Gmail",
+    link:"anuragofficial2023@gmail.com"
   },
-  {
-    heading:"",
-    detail:""
-  },
+
 ]
