@@ -8,8 +8,8 @@ import StarsCanvas from './StarBackground';
 const navCss = "hover:scale-125 transition-all"; 
 const Nav = () => {
 
-    // const [menu,setMenu] = useState("hidden");
-    const [menu,setMenu] = useState("flex");
+    const [menu,setMenu] = useState("hidden");
+    // const [menu,setMenu] = useState("flex");
   
   return (
     <nav style={{fontFamily: 'Marcellus'}} className='flex justify-between items-center sm:px-8 py-[2vh] font-sans '>
