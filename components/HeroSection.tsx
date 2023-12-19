@@ -10,10 +10,10 @@ const HeroSection = () => {
   // const router = useRouter();
 
   return (
-    <section style={{fontFamily: 'Acme'}} className="">
+    <section className="HeroFontCSS ">
       <main className="lg:mt-0 sm:mt-12 min-h-[80vh] px-2 sm:p-20 sm:py-0 flexCenter flex-col lg:flex-row ">
 
-        <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center">
+        <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-3">
           {/* <h1 className="font-black mb-3 text-2xl sm:text-4xl"> */}
             Hello! 👋🏼 I{" "}
@@ -21,7 +21,9 @@ const HeroSection = () => {
               <i className="ri-single-quotes-r mx-[-6px] sm:mx-[-20px]" />
             </sup>{" "}
             m <br />{" "}
-            <span className=" text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-pink-400">
+            {/* <span className=" text-transparent bg-clip-text bg-gradient-to-r  from-[#5b6bfedc] to-[#925ef2f6]"> */}
+            <span className=" gradient-text2 ">
+            {/* <span className=" text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-pink-400"> */}
               {" "}
               Anurag Lohar{" "}
             </span>

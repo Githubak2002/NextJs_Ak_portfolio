@@ -5,7 +5,8 @@ import Link from 'next/link';
 
 import 'remixicon/fonts/remixicon.css'
 import StarsCanvas from './StarBackground';
-const navCss = "hover:scale-125 transition-all"; 
+const navCss = "gradient-text hover:scale-125 transition-all hover:text-white"; 
+// const navCss = "hover:scale-125 transition-all hover:gradient-text"; 
 const Nav = () => {
 
     const [menu,setMenu] = useState("hidden");
@@ -13,7 +14,7 @@ const Nav = () => {
   
   return (
     <nav style={{fontFamily: 'Marcellus'}} className='flex justify-between items-center sm:px-8 py-[2vh] font-sans '>
-      <Link className={`logoFontCSS sm:p-0 pl-4 font-black md:text-6xl text-4xl mt-2 hover:scale-125 transition-all md:text-purple-400`} href='/'> AK</Link>
+      <Link className={`gradient-text logoFontCSS sm:p-0 pl-4 font-black md:text-6xl text-4xl mt-2 sm:mt-4 ${navCss}`} href='/'> AK</Link>
 
       {/* ==== nav for laptop and tablet size screen ==== */}
       <main className='sm:flex hidden font-black'>

@@ -6,25 +6,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
   /* font-family: monospace; */
   /* font-family: 'Marcellus', serif; */
   /* font-family: 'Acme', sans-serif; */
@@ -51,18 +37,44 @@ body {
 
 }
 
-/* ---- Different page fonts ---- */
-
+/* ========= Different page fonts ========= */
 .projectsFontCSS{
   /* font-family: 'Marcellus', serif; */
   font-family: monospace;
+}
+.HeroFontCSS{
+  font-family: 'Acme', sans-serif;
 }
 .logoFontCSS{
   font-family: 'Zeyada', cursive;
 }
 
+/* ========= gradient text/bg ========= */
+.gradient-text {
+  background-image: linear-gradient(to right, #ffe4fa, #b6b6ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-text2 {
+  background-image: linear-gradient(to right, #ffb8f2, #8484ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.gradient-bg{
+  background: linear-gradient(45deg,rgba(31, 31, 251, 0.72), rgba(175, 3, 175, 0.74))
+}
+
+outlineTextCSS {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  background-image: transparent;
+  color:transparent;
+}
 
 
+/* ============================================================ */
 @layer utilities {
   .btn_white { 
     @apply  border-white bg-white px-8 py-3 text-green-50
