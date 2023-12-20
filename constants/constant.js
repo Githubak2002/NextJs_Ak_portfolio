@@ -123,5 +123,24 @@ export const contactArray = [
     social:"Gmail",
     link:"anuragofficial2023@gmail.com"
   },
+]
 
+export const contactArray2 = [
+  { social:"GitHub",
+    link:"https://github.com/Githubak2002",
+    imgurl:"/imgs/github.png"
+  },
+  // { social:"LinkedIn",
+  //   link:"https://www.linkedin.com/in/anuraglohar",
+  //   imgurl:"/imgs/li.webp"
+  // },
+  { social:"Gmail",
+    link:"anuragofficial2023@gmail.com",
+    imgurl:"/imgs/gmail.png"
+  },
+  {
+    social:"Insta",
+    link:"https://www.instagram.com/ak_creates_here/",
+    imgurl:"/imgs/instagram.png"
+  }
 ]
