@@ -26,11 +26,7 @@ const HeroSection = () => {
         <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
           <h1 className="text-4xl sm:text-5xl md:text-7xl  mb-3">
           {/* <h1 className="font-black mb-3 text-2xl sm:text-4xl"> */}
-            Hello! 👋🏼 I{" "}
-            <sup>
-              <i className="ri-single-quotes-r mx-[-6px] sm:mx-[-20px]" />
-            </sup>{" "}
-            m <br />{" "}
+            Hello! 👋🏼 I&#39; m <br />{" "}
             <span className=" gradient-text2 txtOutlineCSS1 text-4xl sm:text-6xl ">
               {" "}
               Anurag Lohar{" "}
