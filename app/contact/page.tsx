@@ -50,7 +50,7 @@ const Contack = () => {
           width={50}
           className="hover:scale-125 transition-all hover:rotate-12"
         />
-        <h1 className="text-blue-400 font-black">Let's Connect →</h1>
+        <h1 className="text-blue-400 font-black">Let&#39;s Connect →</h1>
       </Link>
 
       {/* <Link
