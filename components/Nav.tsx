@@ -17,7 +17,7 @@ const Nav = () => {
     // const [menu,setMenu] = useState("flex");
   
   return (
-    <nav className='flex justify-between items-center sm:px-8 py-[2vh] font-sans '>
+    <nav className='flex justify-between items-center sm:px-8 font-sans '>
       <Link className={`gradient-text  txtOutlineCSS1 sm:p-0 pl-4 md:text-6xl text-4xl mt-2 sm:mt-4 ${navCss}`} href='/'> AK</Link>
 
       {/* ==== nav for laptop and tablet size screen ==== */}
