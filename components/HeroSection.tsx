@@ -21,7 +21,7 @@ const HeroSection = () => {
     transition={{delay:0.5,duration:0.8}} 
     className="txtOutlineCSS "
     > 
-      <main className="lg:mt-0 sm:mt-12 min-h-[80vh] px-2 sm:p-20 sm:py-0 flexCenter flex-col lg:flex-row ">
+      <main className="lg:mt-0 sm:mt-12 min-h-[90vh] px-2 sm:p-20 sm:py-0 flexCenter flex-col lg:flex-row ">
 
         <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
           <h1 className="text-4xl sm:text-5xl md:text-7xl  mb-3">
