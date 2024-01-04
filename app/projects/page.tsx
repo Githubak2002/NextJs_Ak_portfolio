@@ -15,7 +15,7 @@ const projInfo = "All my projects, including their live links, are first publish
 const Projects = () => {
   return (
     // <section className="projectsFontCSS px-[3%] sm:px-[8%] mb-10">
-    <section className=" font3Css sm:projectsFontCSS  ">
+    <section className=" font3Css   ">
       
       <h2 className="text-center text-3xl sm:text-6xl my-6 txtOutlineCSS">
         PROJECTS
