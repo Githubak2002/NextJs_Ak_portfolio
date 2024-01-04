@@ -67,10 +67,10 @@ const Projects = () => {
           <Card3D title = {blender3D.title} />
         </Link>
 
-        <div className="px-3 sm:px-6 mt-8 sm:mt-0 w-auto sm:w-[65%] text-center sm:text-left">
+        <div className="px-4 sm:px-6 mt-8 sm:mt-0 w-auto sm:w-[65%] text-center sm:text-left">
           <h2 className="font-bold text-[#fa9750ef] text-2xl sm:text-4xl"> <i className="ri-blender-fill pr-3 text-[#fa9750ef] " /> {blender3D.title}</h2>
           <h2 className=" text-xl py-5 sm:py-4">{blender3D.subTitle}</h2>
-          <p className=" leading-8 sm:leading-7 text-sm sm:text-base mb-4">{blender3D.detail}</p>
+          <p className=" leading-8 sm:leading-7 text-sm sm:text-base mb-4 sm:text-left text-justify">{blender3D.detail}</p>
           <Link href={blender3D.link} target="blank" className="hover:underline hover:font-black text-blue-500">All my 3D Render <i className="ri-external-link-line text-blue-500" /></Link>
 
         </div>
