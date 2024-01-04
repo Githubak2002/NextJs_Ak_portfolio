@@ -21,10 +21,10 @@ const HeroSection = () => {
     transition={{delay:0.5,duration:0.8}} 
     className="txtOutlineCSS "
     > 
-      <main className="lg:mt-0 sm:mt-12 min-h-[90vh] px-2 sm:p-20 sm:py-0 flexCenter flex-col lg:flex-row ">
+      <main className="lg:mt-0 sm:mt-6 md:min-h-[86vh] min-h-[90vh] px-2 sm:p-20 sm:py-0 gap-y-6 flexCenter flex-col lg:flex-row ">
 
-        <div className="lg:w-1/2 mb-6 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl  mb-3">
+        <div className="lg:w-1/2 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl  mb-3">
           {/* <h1 className="font-black mb-3 text-2xl sm:text-4xl"> */}
             Hello! 👋🏼 I&#39; m <br />{" "}
             <span className=" gradient-text2 txtOutlineCSS1 text-4xl sm:text-6xl ">
@@ -54,8 +54,8 @@ const HeroSection = () => {
 
           <div className="flexCenter lg:flexStart gap-3">
             <Link href="https://drive.google.com/file/d/18dbHCECfPZSGMeMZ7VpLSQt4MWRQwwNV/view?usp=sharing" target="blank" className={`${btncss} lg:mr-2`}>Resume → </Link>
-            <Link href="/contact" className={`${btncss} lg:ml-2`}>
-              Contact me
+            <Link href="/projects" className={`${btncss} lg:ml-2`}>
+              Projects
             </Link>
           </div>
 

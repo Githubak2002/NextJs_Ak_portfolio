@@ -81,7 +81,7 @@ export const experience = [
     details:"A dedicated member of the team name - Yuva Shakti Developing the solution website."
   },
   { title:"Industrial Training - SKIT Jaipur",
-    subTitle:"Web Development |18 jul - 4 aug 2022",
+    subTitle:"Web Development | 18 jul - 4 aug 2022",
     details:"Developed UI of a website with different food items. Front-end using HTML, CSS and Bootstrap 5."
   },
   // { title:"",

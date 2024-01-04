@@ -4,6 +4,8 @@ import React from "react";
 import { education, experience } from "@/constants/constant.js";
 import Footer from "@/components/Footer";
 
+import { motion } from "framer-motion";
+
 // import {motion} from 'framer-motion'
 // import AOS from 'aos'
 // import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -13,7 +15,27 @@ const About = () => {
   return (
     
     <section data-aos="zoom-in-down" className="aboutPgFont">
-      <h2  className="text-center text-3xl sm:text-6xl my-4 txtOutlineCSS">
+
+      {/* <motion.div 
+      initial={{ x:2000, opacity:1, zIndex:50}}
+      animate={{x:1, opacity:0, zIndex:-50}}
+      transition={{duration:2}}
+      className="absolute top-0 h-screen w-screen bg-white"
+      />
+      <motion.div 
+      initial={{ x:2000, opacity:1, zIndex:50}}
+      animate={{x:1, opacity:0, zIndex:-50}}
+      transition={{duration:2, delay:0.5}}
+      className="absolute top-0 h-screen w-screen bg-white"
+      />
+      <motion.div 
+      initial={{ x:2000, opacity:1, zIndex:50}}
+      animate={{x:1, opacity:0, zIndex:-50}}
+      transition={{duration:2, delay:1}}
+      className="absolute top-0 h-screen w-screen bg-white"
+      /> */}
+    
+      <h2  className="text-center text-3xl sm:text-6xl my-6 txtOutlineCSS">
         ABOUT ME
       </h2>
       
@@ -28,7 +50,7 @@ const About = () => {
 
       <div className="" >
       {/* === IMG === */}
-      <div className="mx-auto w-fit h-auto py-10 opacity-80 sm:px-0 px-2">
+      <div className="mx-auto w-fit h-auto py-10 sm:px-0 px-2">
         <Image src="/imgs/fineabt.png" alt="abt_png" height={310} width={360} />
       </div>
       <h2 className=" px-3 mx-auto max-w-[720px] mb-10 md:leading-9 leading-6 text-md md:text-xl text-justify sm:text-center">I am passionate about picking up new talents, developing them, and using them to solve the real world problems. I constantly gain the knowledge and abilities that will help me to deal with the problems in the real world. I believe that I have the capability to face the problems and find a workable solution.</h2>

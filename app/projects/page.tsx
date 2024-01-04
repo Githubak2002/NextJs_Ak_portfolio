@@ -13,7 +13,7 @@ const Projects = () => {
     // <section className="projectsFontCSS px-[3%] sm:px-[8%] mb-10">
     <section className="projectsFontCSS px-3 sm:px-0">
       
-      <h2 className="text-center text-3xl sm:text-6xl my-4 txtOutlineCSS">
+      <h2 className="text-center text-3xl sm:text-6xl my-6 txtOutlineCSS">
         PROJECTS
       </h2>
 

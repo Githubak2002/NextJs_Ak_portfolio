@@ -8,7 +8,7 @@ import 'remixicon/fonts/remixicon.css'
 import StarsCanvas from './StarBackground';
 // import { motion } from 'framer-motion';
 
-const navCss = "gradient-text hover:scale-125 transition-all"; 
+const navCss = "gradient-text hover:scale-125 transition-all px-2"; 
 const dobbleLineCSS = "w-full h-1 border-white border-y-[0.1px]";
 // const navCss = "hover:scale-125 transition-all hover:gradient-text"; 
 const Nav = () => {
@@ -17,16 +17,17 @@ const Nav = () => {
     // const [menu,setMenu] = useState("flex");
   
   return (
-    <nav className='flex justify-between items-center sm:px-8 font-sans '>
-      <Link className={`gradient-text  txtOutlineCSS1 sm:p-0 pl-4 md:text-6xl text-4xl mt-2 sm:mt-4 ${navCss}`} href='/'> AK</Link>
+    <nav className='flex justify-between items-center sm:px-8 font-sans py-2 sm:py-4 '>
+      <Link className={`gradient-text  txtOutlineCSS1 sm:p-0 pl-4 md:text-6xl text-3xl ${navCss}`} href='/'> AK</Link>
 
       {/* ==== nav for laptop and tablet size screen ==== */}
       <main className='sm:flex hidden font-black txtOutlineCSS'>
       {
-        <div className='flex gap-x-7 sm:text-xl md:text-2xl font-bold px-2'>
+        <div className='flex gap-x-2 sm:text-xl md:text-xl font-bold px-2'>
             <Link className={navCss} href="/"> HOME </Link>
             <Link className={navCss} href="/about"> ABOUT </Link>
             <Link className={navCss} href="/projects"> PROJECTS </Link>
+            <Link className={navCss} href="/contact"> CONTACTS </Link>
             {/* <Link className={navCss} href="/contact"> CONTACTS </Link> */}
         </div>
        }
@@ -43,10 +44,11 @@ const Nav = () => {
         <StarsCanvas />
 
         <div className='py-7 flex flex-col items-start gap-y-6'>
-            <i onClick={() => setMenu("hidden")} className=" hover:cursor-pointer  absolute top-[3%] right-[4%] text-3xl ri-close-line" />
+            <i onClick={() => setMenu("hidden")} className=" hover:cursor-pointer  absolute top-[1%] right-[4%] text-3xl ri-close-line" />
             <Link className={navCss} href="/" onClick={() => setMenu("hidden")}> Home → </Link>
             <Link className={navCss} href="/about" onClick={() => setMenu("hidden")}> About → </Link>
             <Link className={navCss} href="/projects" onClick={() => setMenu("hidden")}> Projects → </Link>
+            <Link className={navCss} href="/contact" onClick={() => setMenu("hidden")}> Contacts → </Link>
             {/* <Link className={navCss} href="/contact" onClick={() => setMenu("hidden")}> Contact → </Link> */}
         </div>    
 

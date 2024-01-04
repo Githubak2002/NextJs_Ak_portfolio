@@ -7,19 +7,38 @@ import Footer from "@/components/Footer";
 const Contack = () => {
   return (
     <section className="aboutPgFont">
-      <h2 className="text-center text-3xl sm:text-6xl my-4 txtOutlineCSS mb-10">
+      <h2 className="text-center text-3xl sm:text-6xl mt-6 txtOutlineCSS mb-10">
         CONTACT
       </h2>
 
-      <h3 className=" text-justify sm:text-center leading-8 sm:leading-10  text-lg sm:text-2xl px-3 sm:px-0 py-6 max-w-[786px] mx-auto ">
+      <h3 className=" text-justify sm:text-center leading-8 sm:leading-10  text-lg sm:text-2xl px-3 py-6 max-w-[810px] mx-auto ">
         <span className="txtOutlineCSS text-2xl sm:text-3xl">&#34; </span> 
-      Hi!👋 Whether you have a project or just want to chat, your message matters! Let&#39;s talk,  brainstorm, or grab a virtual coffee! 🚀 Feel free
-        to reach out—I&#39;d love to chat! 📩 Can&#39;t wait to hear from you and make something great together! 😊✨ I&#39;m really excited to chat with you! <span className="txtOutlineCSS  text-2xl sm:text-3xl"> &#34;</span>
+      Hi!👋 Whether you have a project or just want to chat, your message matters! Let&#39;s talk,  brainstorm, or grab a virtual coffee! 🚀 Feel free to reach out—I&#39;d love to chat! 📩 Can&#39;t wait to hear from you and make something great together! 😊✨ I&#39;m really excited to chat with you! <span className="txtOutlineCSS  text-2xl sm:text-3xl"> &#34;</span>
       </h3>
+
+      <div className="mx-auto w-fit h-auto sm:px-0 px-2">
+        <Image src="/imgs/img2.png" alt="abt_png" height={310} width={360} />
+      </div>
 
       {/* <h2 className="text-center">Get instant reply!</h2> */}
 
+      <Link
+        className="my-4 flexCenter gap-3 text-lg sm:text-2x"
+        href="https://www.linkedin.com/in/anuraglohar"
+      >
+        <Image
+          src="/imgs/li.webp"
+          alt="LinkedIn"
+          height={50}
+          width={50}
+          className="hover:scale-125 transition-all hover:rotate-12"
+        />
+        <h1 className="text-blue-400 font-black">Let&#39;s Connect →</h1>
+      </Link>
+
+
       <h2 className="txtOutlineCSS text-center text-2xl sm:text-3xl mt-10 mb-4">SOCIAL</h2>
+
       <main className="flexCenter max-w-[656px] mx-auto gap-x-10 gap-y-3 flex-wrap flex-col sm:flex-row  px-4 sm:px-0">
         {contactArray2.map((ele, i) => (
           <Link key={i}
@@ -39,19 +58,7 @@ const Contack = () => {
       </main>
 
 
-      <Link
-        className="my-4 flexCenter gap-3 text-lg sm:text-2x"
-        href="https://www.linkedin.com/in/anuraglohar"
-      >
-        <Image
-          src="/imgs/li.webp"
-          alt="LinkedIn"
-          height={50}
-          width={50}
-          className="hover:scale-125 transition-all hover:rotate-12"
-        />
-        <h1 className="text-blue-400 font-black">Let&#39;s Connect →</h1>
-      </Link>
+      
 
       {/* <Link
         className="my-4 flexCenter gap-3 text-lg sm:text-2xl text-blue-500"
