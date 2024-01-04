@@ -4,11 +4,13 @@ import { projectsArray, projectsArray2 } from "../../constants/constant.js";
 import Link from 'next/link';
 import Footer from "@/components/Footer";
 import { blender3D } from "../../constants/constant.js";
-import Card3D from "@/components/Card3D.tsx";
+import Card3D from "@/components/Card.jsx";
 
 // import {motion} from 'framer-motion'
-
+// import Card from "@/components/Card.tsx";
 import "remixicon/fonts/remixicon.css";
+
+const projInfo = "All my projects, including their live links, are first published on my GitHub profile. Feel free to check them out for live demos and access to the code.";
 
 const Projects = () => {
   return (
@@ -105,11 +107,8 @@ const Projects = () => {
         </div>
       ))}
       </main>
-      
-      <h2 className="text-center max-w-[580px] mx-auto mt-5 py-6 leading-8 sm:leading-7 ">All my projects, including their live links, are first published on my GitHub profile. Feel free to check them out for live demos and access to the code.</h2>
-      <Link href="https://github.com/Githubak2002" target="blank" className="border-2 w-fit mx-auto rounded-xl p-2 flexCenter transition-all hover:scale-110 hover:translate-y-[-5px] ">
-        GITHUB
-          <span className="ri-github-line font-thin  pl-2" />
+      <h2 className="text-center max-w-[580px] mx-auto mt-5 py-6 leading-8 sm:leading-7 ">{projInfo}</h2>
+      <Link href="https://github.com/Githubak2002" target="blank" className="border-2 w-fit mx-auto rounded-xl p-2 flexCenter transition-all hover:scale-110 hover:translate-y-[-5px] "> GITHUB <span className="ri-github-line font-thin  pl-2" />
       </Link>
 
     <Footer />

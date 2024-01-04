@@ -1,7 +1,7 @@
 import React from 'react';
 import "./3Dcard.css";
 
-const Card3D = (props:any) => {
+const Card = (props) => {
   
   const title = props.title;
   console.log(title);
@@ -14,4 +14,4 @@ const Card3D = (props:any) => {
   )
 }
 
-export default Card3D
+export default Card
