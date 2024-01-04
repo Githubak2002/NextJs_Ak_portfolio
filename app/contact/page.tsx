@@ -11,7 +11,7 @@ const Contack = () => {
         CONTACT
       </h2>
 
-      <h3 className=" text-justify sm:text-center leading-8 sm:leading-10  text-lg sm:text-2xl px-3 py-6 max-w-[810px] mx-auto ">
+      <h3 className="text-justify sm:text-center leading-8 sm:leading-10  text-lg sm:text-2xl px-3 py-6 max-w-[810px] mx-auto">
         <span className="txtOutlineCSS text-2xl sm:text-3xl">&#34; </span> 
       Hi!👋 Whether you have a project or just want to chat, your message matters! Let&#39;s talk,  brainstorm, or grab a virtual coffee! 🚀 Feel free to reach out—I&#39;d love to chat! 📩 Can&#39;t wait to hear from you and make something great together! 😊✨ I&#39;m really excited to chat with you! <span className="txtOutlineCSS  text-2xl sm:text-3xl"> &#34;</span>
       </h3>

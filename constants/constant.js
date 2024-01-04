@@ -14,10 +14,14 @@ export const navArray = [
   // },
 ]
 
-// ------- Projects/Experience --------
+// --------------- Projects/Experience ----------------
 
 
-// add Next js ui - web and protfolio
+/*- add next_js protfolio
+  - dashboard with mongodb
+  - Next js ui - next_js
+  = SIH 
+*/
 export const projectsArray = [
   { name:"BLOG website using MERN",
     imgurl:"/projectsImgs/blogApp.png",
@@ -42,7 +46,7 @@ export const projectsArray = [
 
   { name:"Ui to Functional Web",
     imgurl:"/projectsImgs/ui to react website.png",
-    content:"Transforming UI designs into responsive, functional websites with React Router integration and more...",
+    content:"Transforming UI designs into fully responsive and fully functional websites with React Router integration and more...",
     liveLink:"https://ui-to-website.netlify.app",
     repoLink:"https://github.com/Githubak2002/UI-to-website",
   },
@@ -68,8 +72,53 @@ export const projectsArray = [
   // },
 ]
 
+export const projectsArray2 = [
+  // { name:"Dashboard with Chart",
+  //   imgurl:"/projectsImgs/blogApp.png",
+  //   content:"An app prompting user login/registration leads to a Dashboard displaying total users and their work hours. Built on React.js, it integrates Apex Charts for data visualization and employs MongoDB for simple authentication and database management.",
+  //   liveLink:"https://blog-app-z55p.onrender.com",
+  //   repoLink:"https://github.com/Githubak2002/Simple-blog-app",
+  // },
+
+  { name:"Images Search",
+  imgurl:"/projectsImgs/img_api.png",
+  liveLink:"https://search-imgs-api.netlify.app",
+  repoLink:"https://github.com/Githubak2002/weather-app",
+  content:"A React-based Image Search Engine, that fetches & display images via Unsplash API. Fetch and Axios methods in React...",
+  },
+  { name:"All in one",
+  imgurl:"/projectsImgs/All_in_1.png",
+  liveLink:"https://allin1-react-localstorage.netlify.app",
+  repoLink:"https://github.com/Githubak2002/react-localstorage",
+  content:"A React app combining To-D lists, Notes and Contacts, efficiently utilizing local Storage for seamless user experience.",
+  },
+  { name:"Weather app - API",
+  imgurl:"/projectsImgs/weather_app_api.png",
+  liveLink:"https://ak-weather-app-api.netlify.app",
+  repoLink:"https://github.com/Githubak2002/weather-app",
+  content:"An API-driven weather app, developed with React JS and Tailwind CSS, designed for getting familiarity with data integration.",
+  },
+
+  // { name:"",
+  //   imgurl:"",
+  //   content:"",
+  //   liveLink:"",
+  //   repoLink:"",
+  // },
+]
+
+
+
 // --------- ABOUT ---------
-// blender 3d with framer motion strip
+
+// blender 3D with framer motion strip
+export const blender3D = {
+  title:"BLENDER 3D",
+  subTitle:"3D modelling, rendering, animations etc..",
+  detail:"My passion for 3D design led me to explore Blender 3D ✨ and undertake various projects. I'm particularly interested in 3D gaming asset modeling, 3D modelling and animation. 👨🏼‍💻 This reflects my enthusiasm for the metaverse and 3D technologies, where I firmly believe that genuine interest fuels effective learning and implementation.    I 💖 3D modelling, Animation, VR, Gaming...",
+  imgsrc:"",
+  link:"https://photos.google.com/share/AF1QipPkPtOaciQZSgHxdoSCCr7qlZSo70YXjoFwfX4jjvfOby40flUWb3ipYbV5cud-sQ?key=a0FOR0JLM1Njd1djeWtUejRpQmd1N2hKOVlFUlZn"
+}
 
 export const experience = [
   { title:"6 Weeks Inter with IBM Skill-Build",
