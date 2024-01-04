@@ -115,7 +115,7 @@ export const projectsArray2 = [
 export const blender3D = {
   title:"BLENDER 3D",
   subTitle:"3D modelling, rendering, animations etc..",
-  detail:"My passion for 3D design led me to explore Blender 3D ✨ and undertake various projects. I'm particularly interested in 3D gaming asset modeling, 3D modelling and animation. 👨🏼‍💻 This reflects my enthusiasm for the metaverse and 3D technologies, where I firmly believe that genuine interest fuels effective learning and implementation.    I 💖 3D modelling, Animation, VR, Gaming...",
+  detail:"My passion for 3D design led me to explore Blender 3D ✨ and undertake various projects. I'm particularly interested in 3D gaming asset modeling, 3D modelling and animation. This reflects my enthusiasm for the metaverse and 3D technologies, where I firmly believe that genuine interest fuels effective learning and implementation.    I 💖 3D modelling, Animation, VR, Gaming...",
   imgsrc:"",
   link:"https://photos.google.com/share/AF1QipPkPtOaciQZSgHxdoSCCr7qlZSo70YXjoFwfX4jjvfOby40flUWb3ipYbV5cud-sQ?key=a0FOR0JLM1Njd1djeWtUejRpQmd1N2hKOVlFUlZn"
 }

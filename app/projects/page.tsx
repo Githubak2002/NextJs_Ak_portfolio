@@ -107,7 +107,7 @@ const Projects = () => {
         </div>
       ))}
       </main>
-      <h2 className="text-center max-w-[580px] mx-auto mt-5 py-6 leading-8 sm:leading-7 ">{projInfo}</h2>
+      <h2 className="text-center max-w-[580px] mx-auto mt-5 py-6 px-4 leading-8 sm:leading-7 ">{projInfo}</h2>
       <Link href="https://github.com/Githubak2002" target="blank" className="border-2 w-fit mx-auto rounded-xl p-2 flexCenter transition-all hover:scale-110 hover:translate-y-[-5px] "> GITHUB <span className="ri-github-line font-thin  pl-2" />
       </Link>
 
