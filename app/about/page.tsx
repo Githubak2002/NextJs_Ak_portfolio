@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 
 //  AOS animation on scroll 
+const aosInstance: any = AOS;
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the styles
 
