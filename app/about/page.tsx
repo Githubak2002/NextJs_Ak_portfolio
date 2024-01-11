@@ -68,7 +68,7 @@ const About = () => {
       <main className="p-2 flexCenter flex-col gap-8 text-md sm:text-xl">
         {experience.map((ele, i) => (
           <div 
-            data-aos={ i%2 === 0 ? "fade-left" : "fade-right"}
+            data-aos={ i%2 === 0 ? "zoom-in" : "zoom-in"}
             key={i}
             className="p-2 w-full max-w-[560px] py-5 border-[1.2px] flexCenter flex-col gap-4"
           >
@@ -89,7 +89,7 @@ const About = () => {
       <main className="p-2 flexCenter flex-col gap-8 text-md sm:text-xl">
         {education.map((ele, i) => (
           <div
-            data-aos={ i%2 === 0 ? "fade-left" : "fade-right"}
+            data-aos={ i%2 === 0 ? "zoom-in" : "zoom-in"}
             key={i}
             className="p-2 w-full max-w-[560px] py-5 border-[1.2px] flexCenter flex-col gap-4"
           >
