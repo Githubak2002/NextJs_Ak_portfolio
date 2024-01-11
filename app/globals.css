@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -55,6 +57,7 @@ body {
 }
 /* ============ Text outline CSS ============ */
 .txtOutlineCSS{
+  font-family: 'Rubik Scribble', system-ui;
   font-family: 'Rubik Doodle Shadow';
 }
 .txtOutlineCSS1{
@@ -97,8 +100,27 @@ body {
   background: linear-gradient(45deg,rgba(31, 31, 251, 0.72), rgba(175, 3, 175, 0.74))
 }
 
+/* ============= PAGE TRANSITION ================= 
+.slide-in{
+  position: fixed;
+  top:0;
+  left: 0;
+  widows: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: bottom;
+}
 
-
+.slide-out{
+  position: fixed;
+  top:0;
+  left: 0;
+  widows: 100%;
+  height: 100vh;
+  background: #0f0f0f;
+  transform-origin: top;
+}
+*/
 /* ============================================================ */
 @layer utilities {
   .btn_white { 

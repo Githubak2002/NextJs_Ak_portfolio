@@ -29,7 +29,7 @@ const HeroSection = () => {
             Hello! 👋🏼 I&#39; m <br />{" "}
             <span className=" gradient-text2 txtOutlineCSS1 text-4xl sm:text-6xl ">
               {" "}
-              Anurag Lohar{" "}
+              ANURAG LOHAR{" "}
             </span>
           </h1>
 

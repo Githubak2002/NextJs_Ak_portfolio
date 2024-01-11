@@ -1,28 +1,36 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 import { contactArray2 } from "@/constants/constant";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/components/Footer";
 
+//  AOS animation on scroll 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the styles
+
 const Contack = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800 });
+  }, []);
   return (
     <section className="aboutPgFont">
-      <h2 className="text-center text-3xl sm:text-6xl mt-6 txtOutlineCSS mb-10">
+      <h2 data-aos="zoom-in" className="text-center text-3xl sm:text-6xl mt-6 txtOutlineCSS mb-10">
         CONTACT
       </h2>
 
-      <h3 className="text-justify sm:text-center leading-8 sm:leading-10  text-lg sm:text-2xl px-3 py-6 max-w-[810px] mx-auto">
+      <h3 data-aos="zoom-in" className="text-justify sm:text-center leading-8 sm:leading-10  text-lg sm:text-2xl px-3 py-6 max-w-[810px] mx-auto">
         <span className="txtOutlineCSS text-2xl sm:text-3xl">&#34; </span> 
       Hi!👋 Whether you have a project or just want to chat, your message matters! Let&#39;s talk,  brainstorm, or grab a virtual coffee! 🚀 Feel free to reach out—I&#39;d love to chat! 📩 Can&#39;t wait to hear from you and make something great together! 😊✨ I&#39;m really excited to chat with you! <span className="txtOutlineCSS  text-2xl sm:text-3xl"> &#34;</span>
       </h3>
 
-      <div className="mx-auto w-fit h-auto sm:px-0 px-2">
+      <div data-aos="zoom-in" className="mx-auto w-fit h-auto sm:px-0 px-2">
         <Image src="/imgs/img2.png" alt="abt_png" height={310} width={360} />
       </div>
 
       {/* <h2 className="text-center">Get instant reply!</h2> */}
 
-      <Link
+      <Link data-aos="zoom-in"
         className="my-4 flexCenter gap-3 text-lg sm:text-2x"
         href="https://www.linkedin.com/in/anuraglohar"
       >
@@ -37,11 +45,11 @@ const Contack = () => {
       </Link>
 
 
-      <h2 className="txtOutlineCSS text-center text-2xl sm:text-3xl mt-10 mb-4">SOCIAL</h2>
+      <h2 data-aos="zoom-in" className="txtOutlineCSS text-center text-2xl sm:text-3xl mt-10 mb-4">SOCIAL</h2>
 
       <main className="flexCenter max-w-[656px] mx-auto gap-x-10 gap-y-3 flex-wrap flex-col sm:flex-row  px-4 sm:px-0">
         {contactArray2.map((ele, i) => (
-          <Link key={i}
+          <Link data-aos="zoom-in" key={i}
           className="my-4 flexStart gap-3 text-lg sm:text-2xl"
           href={ele.link}
         >
