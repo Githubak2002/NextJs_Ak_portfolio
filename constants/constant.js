@@ -184,7 +184,7 @@ export const contactArray2 = [
   //   imgurl:"/imgs/li.webp"
   // },
   { social:"Gmail",
-    link:"anuragofficial2023@gmail.com",
+    link:"mailto:anuragofficial2023@gmail.com",
     imgurl:"/imgs/gmail.png"
   },
   {

@@ -12,7 +12,7 @@ import 'aos/dist/aos.css'; // Import the styles
 const Contack = () => {
   useEffect(() => {
     AOS.init({ duration: 800 });
-  }, []);
+  },[]);
   return (
     <section className="aboutPgFont">
       <h2 data-aos="zoom-in" className="text-center text-3xl sm:text-6xl mt-6 txtOutlineCSS mb-10">
@@ -52,6 +52,7 @@ const Contack = () => {
           <Link data-aos="zoom-in" key={i}
           className="my-4 flexStart gap-3 text-lg sm:text-2xl"
           href={ele.link}
+          target="blank"
         >
           <Image
             src={ele.imgurl}
