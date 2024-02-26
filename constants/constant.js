@@ -179,10 +179,6 @@ export const contactArray2 = [
     link:"https://github.com/Githubak2002",
     imgurl:"/imgs/github.png"
   },
-  // { social:"LinkedIn",
-  //   link:"https://www.linkedin.com/in/anuraglohar",
-  //   imgurl:"/imgs/li.webp"
-  // },
   { social:"Gmail",
     link:"mailto:anuragofficial2023@gmail.com",
     imgurl:"/imgs/gmail.png"

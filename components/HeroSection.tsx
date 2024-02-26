@@ -53,7 +53,7 @@ const HeroSection = () => {
           />
 
           <div className="flexCenter lg:flexStart gap-3">
-            <Link href="https://drive.google.com/file/d/18dbHCECfPZSGMeMZ7VpLSQt4MWRQwwNV/view?usp=sharing" target="blank" className={`${btncss} lg:mr-2`}>Resume → </Link>
+            <Link href="https://drive.google.com/file/d/1OrZKuEtW979tChBNnp_fWkRdJdkIGma7/view" target="blank" className={`${btncss} lg:mr-2`}>Resume → </Link>
             <Link href="/projects" className={`${btncss} lg:ml-2`}>
               Projects
             </Link>
