@@ -179,6 +179,11 @@ export const contactArray2 = [
     link:"https://github.com/Githubak2002",
     imgurl:"/imgs/github.png"
   },
+  {
+    social:"Twitter",
+    link:"https://twitter.com/Anurag_2023_",
+    imgurl:"/imgs/twitter.png"
+  },
   { social:"Gmail",
     link:"mailto:anuragofficial2023@gmail.com",
     imgurl:"/imgs/gmail.png"
