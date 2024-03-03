@@ -3,8 +3,7 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import { education, experience } from "@/constants/constant.js";
 import Footer from "@/components/Footer";
-
-import { motion } from "framer-motion";
+import Skills from "@/components/Skills";
 
 //  AOS animation on scroll 
 const aosInstance: any = AOS;
@@ -59,8 +58,11 @@ const About = () => {
       <h2 className=" px-3 mx-auto max-w-[720px] mb-10 md:leading-9 leading-6 text-md md:text-xl text-justify sm:text-center">I am passionate about picking up new talents, developing them, and using them to solve the real world problems. I constantly gain the knowledge and abilities that will help me to deal with the problems in the real world. I believe that I have the capability to face the problems and find a workable solution.</h2>
       </div>
 
+      {/* =================== SKILLS =================== */}
+      <Skills />
 
-      {/* === EXPERIENCE === */}
+
+      {/* =================== EXPERIENCE =================== */}
       <h2 data-aos="zoom-in" className="txtOutlineCSS text-center text-2xl sm:text-5xl my-4">
         EXPERIENCE 
       </h2>
@@ -99,6 +101,8 @@ const About = () => {
           </div>
         ))}
       </main>
+
+      
 
       <Footer />
     </section>

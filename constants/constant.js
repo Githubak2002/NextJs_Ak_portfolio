@@ -14,7 +14,7 @@ export const navArray = [
   // },
 ]
 
-// --------------- Projects/Experience ----------------
+// ============= Projects/Experience =============-
 
 
 /*- add next_js protfolio
@@ -22,6 +22,7 @@ export const navArray = [
   - Next js ui - next_js
   = SIH 
 */
+// ============= major project =============
 export const projectsArray = [
   { name:"BLOG website using MERN",
     imgurl:"/projectsImgs/blogApp.png",
@@ -107,9 +108,111 @@ export const projectsArray2 = [
   // },
 ]
 
+// ================ SKILS ================
+
+export const skills_set = [
+  {
+    name:"Blender 3D",
+    path:"/skills/blender.png"
+  },
+  {
+    name:"Bootstrap",
+    path:"/skills/bootstrap.png"
+  },
+  {
+    name:"C",
+    path:"/skills/c.png"
+  },
+  {
+    name:"C++",
+    path:"/skills/cpp.png"
+  },
+  {
+    name: "CSS",
+    path: "/skills/css.png"
+  },
+  {
+    name:"Express js",
+    path:"/skills/expressjs.png"
+  },
+  {
+    name:"Figma",
+    path:"/skills/figma.png"
+  },
+  {
+    name:"Firebase",
+    path:"/skills/firebase.png"
+  },
+  {
+    name: "Git & Github",
+    path: "/skills/github.png"
+  },
+  {
+    name: "HTML",
+    path: "/skills/html.png"
+  },
+  {
+    name: "JavaScript",
+    path: "/skills/js.png"
+  },
+  {
+    name: "Java",
+    path: "/skills/java.png"
+  },
+  {
+    name: "MongoDb",
+    path: "/skills/mongodb.png"
+  },
+  {
+    name: "SASS",
+    path: "/skills/sass.svg"
+  },
+  {
+    name: "Tailwind",
+    path: "/skills/tailwindCss.png"
+  },
+  {
+    name: "React js",
+    path: "/skills/react.png"
+  },
+  {
+    name: "VS Code",
+    path: "/skills/vs.svg"
+  },
+  {
+    name: "Vercel",
+    path: "/skills/vercel.svg"
+  },
+  {
+    name: "Next js",
+    path: "/skills/next.svg"
+  },
+  {
+    name: "Redux",
+    path: "/skills/redux.png"
+  },
+    {
+    name: "Node.js",
+    path: "/skills/nodejs.png"
+  },
+  {
+    name: "My SQL",
+    path: "/skills/mysql.png"
+  },
+
+  {
+    name: "Postman",
+    path: "/skills/postman.svg"
+  },
+];
 
 
-// --------- ABOUT ---------
+
+
+
+
+
+
 
 // blender 3D with framer motion strip
 export const blender3D = {
@@ -120,6 +223,7 @@ export const blender3D = {
   link:"https://photos.google.com/share/AF1QipPkPtOaciQZSgHxdoSCCr7qlZSo70YXjoFwfX4jjvfOby40flUWb3ipYbV5cud-sQ?key=a0FOR0JLM1Njd1djeWtUejRpQmd1N2hKOVlFUlZn"
 }
 
+// ================ ABOUT ================
 export const experience = [
   { title:"6 Weeks Inter with IBM Skill-Build",
     subTitle:"Frontend Developer | July - August 2023",
