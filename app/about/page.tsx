@@ -89,7 +89,7 @@ const About = () => {
           <div
             data-aos={i % 2 === 0 ? "zoom-in" : "zoom-in"}
             key={i}
-            className="custom-card p-4 w-full max-w-[860px] py-5 border-[1px] rounded-tr-3xl rounded-lg flexCenter flex-col gap-4"
+            className="p-4 w-full max-w-[860px] py-5 border-[1px] rounded-tr-3xl rounded-lg flexCenter flex-col gap-4"
           >
             <h2 className="text-xl sm:text-2xl text-center font-bold text-[#e7caff]">
               {ele.title}
