@@ -37,8 +37,8 @@ body {
 
 /* ========= Different page fonts ========= */
 .projectsFontCSS{
-  /* font-family: 'Marcellus', serif; */
   font-family: monospace;
+  font-family: 'Marcellus', serif;
   
 }
 /* .HeroFontCSS{

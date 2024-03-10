@@ -10,6 +10,12 @@ const aosInstance: any = AOS;
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the styles
 
+const abt_data =
+  " I am passionate about picking up new talents, developing them, and using them to solve the real world problems. I constantly gain the knowledge and abilities that will help me to deal with the problems in the real world. I believe that I have the capability to face the problems and find a workable solution.";
+
+const abt_data_gopa =
+  "I have a strong desire to discover new skills, nurture them, and apply them to address issues facing society today. I'm always learning new things and developing my skills to help me solve difficulties in the real world. I think I'm capable of facing the issues and coming up with a practical answer.";
+
 const About = () => {
   useEffect(() => {
     AOS.init({ duration: 800 });
@@ -61,12 +67,9 @@ const About = () => {
             width={360}
           />
         </div>
-        <h2 className=" px-3 mx-auto max-w-[720px] mb-10 md:leading-9 leading-6 text-md md:text-xl text-justify sm:text-center">
-          I am passionate about picking up new talents, developing them, and
-          using them to solve the real world problems. I constantly gain the
-          knowledge and abilities that will help me to deal with the problems in
-          the real world. I believe that I have the capability to face the
-          problems and find a workable solution.
+
+        <h2 className=" px-4 mx-auto max-w-[780px] mb-10 md:leading-9 leading-7 text-md md:text-xl text-center">
+          {abt_data_gopa}
         </h2>
       </div>
 

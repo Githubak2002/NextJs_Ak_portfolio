@@ -326,7 +326,7 @@ export const skills_tech_stack = {
 // blender 3D with framer motion strip
 export const blender3D = {
   title: "BLENDER 3D",
-  subTitle: "3D modelling, rendering, animations etc..",
+  subTitle: "3D modelling || 3D rendering || 3D Animations etc..",
   detail:
     "My passion for 3D design led me to explore Blender 3D ✨ and undertake various projects. I'm particularly interested in 3D gaming asset modeling, 3D modelling and animation. This reflects my enthusiasm for the metaverse and 3D technologies, where I firmly believe that genuine interest fuels effective learning and implementation.    I 💖 3D modelling, Animation, VR, Gaming...",
   imgsrc: "",

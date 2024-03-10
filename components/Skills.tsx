@@ -25,7 +25,10 @@ const SkillSection: React.FC<SkillSectionProps> = ({ title, skills }) => (
 );
 
 const Skills: React.FC = () => (
-  <main className="pb-20 pt-24 max-w-[960px] mx-auto" style={{ zIndex: 100, position: "relative" }}>
+  <main
+    className="pb-20 pt-24 max-w-[960px] mx-auto"
+    style={{ zIndex: 10, position: "relative" }}
+  >
     <h3 className="txtOutlineCSS text-center text-3xl">
       Skills & <span className="text-white">Tech Stack</span>
     </h3>
@@ -37,9 +40,6 @@ const Skills: React.FC = () => (
 );
 
 export default Skills;
-
-
-
 
 // import skillsData from "./skills.json";
 // import SkillCard from "./SkillCard";
