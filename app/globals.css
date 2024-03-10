@@ -30,8 +30,8 @@ body {
 
 .backgroundCSS{
   /* background: linear-gradient(49deg ,rgb(0, 0, 0), rgba(21, 21, 21, 0.801),rgba(21, 21, 21, 0.6)); */
-  background: linear-gradient(49deg ,rgb(0, 0, 0), rgba(21, 21, 21, 0.824),rgba(12, 12, 43, 0.824));
-  background: linear-gradient(49deg , rgba(21, 21, 21, 0.824),rgba(0,0,0));
+  background: linear-gradient(49deg ,rgb(0, 0, 0), rgba(21, 21, 21, 0.908),rgba(12, 12, 43, 0.895));
+  background: linear-gradient(49deg , rgba(21, 21, 21, 0.928),rgba(0,0,0));
 
 }
 
