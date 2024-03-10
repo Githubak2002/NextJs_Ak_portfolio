@@ -390,22 +390,6 @@ export const education = [
 ];
 
 // ================ CONTACT ================
-
-export const contactArray = [
-  {
-    social: "GitHub",
-    link: "https://github.com/Githubak2002",
-  },
-  {
-    social: "LinkedIn",
-    link: "https://www.linkedin.com/in/anuraglohar",
-  },
-  {
-    social: "Gmail",
-    link: "anuragofficial2023@gmail.com",
-  },
-];
-
 export const contactArray2 = [
   {
     social: "GitHub",
@@ -428,3 +412,15 @@ export const contactArray2 = [
     imgurl: "/imgs/instagram.png",
   },
 ];
+
+// Have a project - or msg me
+// export const frelance_links = [
+//   {
+//     label: "Upwork",
+//     link: "",
+//   },
+//   {
+//     label: "Fiver",
+//     link: "",
+//   },
+// ];
