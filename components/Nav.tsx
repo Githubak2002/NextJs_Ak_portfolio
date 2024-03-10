@@ -1,9 +1,6 @@
 "use client"; 
 import React, { useState } from 'react';
 import Link from 'next/link';
-// import { navArray } from '../constants/constant.js';
-import { contactArray } from '@/constants/constant';
-
 import 'remixicon/fonts/remixicon.css'
 import StarsCanvas from './StarBackground';
 // import { motion } from 'framer-motion';
