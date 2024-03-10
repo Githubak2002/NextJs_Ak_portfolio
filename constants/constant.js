@@ -339,7 +339,7 @@ export const experience = [
     title: "Self Employed & Freelance",
     subTitle: "Full Stack WebD || Jan 2023 - Present",
     details:
-      "I've recently begun my journey to become a full-stack web developer,I've dived into various technologies like Next.js and the MERN stack (MongoDB, Express.js, React.js, Node.js), and I've even implemented authentication features to ensure security in my projects. It's been an incredible learning experience, and I'm proud to say that I've developed several full-stack projects from scratch.",
+      "I began my journey to become a Full-stack web developer, I had dived into various technologies like Next.js and the MERN stack (MongoDB, Express.js, React.js, Node.js), also implemented authentication features to ensure security in my projects. It's been an incredible learning experience, and I'm proud to say that I've developed several Frontend & Full-stack projects from scratch.",
   },
   {
     title: "Freelancing - Stock Prediction Web App",
