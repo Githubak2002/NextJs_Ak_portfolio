@@ -2,9 +2,11 @@ import React from "react";
 import { BiLogoGmail } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { CiHeart } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
 // import { FaRegHeart } from "react-icons/fa";
 
 import Link from "next/link";
+const hover_css = "hover:scale-125 transition-all";
 
 const Footer = () => {
   return (
@@ -22,13 +24,33 @@ const Footer = () => {
 
       {/* ==== LOGO LINKS ==== */}
       <div className="flexCenter gap-4 text-3xl sm:text-5xl ">
-        <Link href="https://github.com/Githubak2002" target="blank">
-          <i className="ri-github-line font-thin" />
-        </Link>
-        <Link href="https://www.linkedin.com/in/anuraglohar" target="blank">
+        <Link
+          className={hover_css}
+          href="https://www.linkedin.com/in/anuraglohar"
+          target="blank"
+        >
           <i className="ri-linkedin-fill " />
         </Link>
-        <Link href="mailto:anuragofficial2023@gmail.com" target="blank">
+        <Link
+          className={hover_css}
+          href="https://github.com/Githubak2002"
+          target="blank"
+        >
+          <i className="ri-github-line font-thin" />
+        </Link>
+
+        <Link
+          className={hover_css}
+          href="https://twitter.com/Anurag_2023_"
+          target="blank"
+        >
+          <FaXTwitter />
+        </Link>
+        <Link
+          className={hover_css}
+          href="mailto:anuragofficial2023@gmail.com"
+          target="blank"
+        >
           <BiLogoGmail />
         </Link>
       </div>

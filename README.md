@@ -7,8 +7,9 @@ clerk and email js
 TO DO 
 
 1. About me - WebD from INDIA with chandryan 3 success. 
-2. Abt me - shcool college SIH attarctive and BLENDER 3D.
-3. Projects - sticky scrool for best projects - headlines - I'm a Full stack web developer with 1+ year of experience. Experience in creating frontend and full stack websites using Next js, MERN stack with Authentication. You can check out...
+2. Abt me - shcool college SIH attarctive and BLENDER 3D - name, age, photo, etc
+3. Projects - headlines - I'm a Full stack web developer with 1+ year of experience. Experience in creating frontend and full stack websites using Next js, MERN stack with Authentication. You can check out...
+4. Quotes - linked page [folder]
 
 PGS TRANSITION - https://www.youtube.com/watch?v=8voRA_DMuFM
 
