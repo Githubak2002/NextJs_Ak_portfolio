@@ -77,7 +77,7 @@ const HeroSection = () => {
             </Link>
             <Link
               className="hover:scale-125 transition-all"
-              href="https://www.linkedin.com/in/anuraglohar"
+              href="https://twitter.com/Anurag_2023_"
               target="blank"
             >
               <FaXTwitter />
