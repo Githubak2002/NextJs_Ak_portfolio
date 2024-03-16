@@ -32,15 +32,6 @@ export const projectsArray = [
     repoLink: "https://github.com/Githubak2002/Simple-blog-app",
   },
   {
-    name: "Movie website (API)",
-    imgurl: "/projectsImgs/movie api.png",
-    content:
-      "A movie website, crafted with React JS and Tailwind CSS, fetches and displays extensive movie data through API integration.",
-    liveLink: "#",
-    // liveLink: "https://ak-movie-api.netlify.app",
-    repoLink: "https://github.com/Githubak2002/movie-website-api",
-  },
-  {
     name: "3D WebD",
     imgurl: "/projectsImgs/3D WebD.png",
     content:
@@ -49,7 +40,6 @@ export const projectsArray = [
     liveLink: "https://ak3dweb.vercel.app",
     repoLink: "https://github.com/Githubak2002/React_with_Spline3D",
   },
-
   {
     name: "Ui to Functional Web",
     imgurl: "/projectsImgs/ui to react website.png",
@@ -66,14 +56,23 @@ export const projectsArray = [
     liveLink: "https://ui-to-bank-website.netlify.app",
     repoLink: "https://github.com/Githubak2002/bank-website-frontend",
   },
-  // {
-  //   name: "Portfolio HTML CSS JS",
-  //   imgurl: "/projectsImgs/portfolio.png",
-  //   content:
-  //     "Practiced Html, css and javascript to create my first ever portfolio To start with React js. Displaying various projects in a fully responsive manner. ",
-  //   liveLink: "https://githubak2002.github.io/akportfolio/",
-  //   repoLink: "https://github.com/Githubak2002/akportfolio",
-  // },
+  {
+    name: "Movie website (API)",
+    imgurl: "/projectsImgs/movie api.png",
+    content:
+      "A movie website, crafted with React JS and Tailwind CSS, fetches and displays extensive movie data through API integration.",
+    liveLink: "#",
+    // liveLink: "https://ak-movie-api.netlify.app",
+    repoLink: "https://github.com/Githubak2002/movie-website-api",
+  },
+  {
+    name: "Portfolio HTML CSS JS",
+    imgurl: "/projectsImgs/portfolio.png",
+    content:
+      "Practiced Html, css and javascript to create my first ever portfolio To start with React js. Displaying various projects in a fully responsive manner. ",
+    liveLink: "https://githubak2002.github.io/akportfolio/",
+    repoLink: "https://github.com/Githubak2002/akportfolio",
+  },
 
   // { name:"",
   //   imgurl:"",
