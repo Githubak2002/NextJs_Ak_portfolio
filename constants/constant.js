@@ -42,21 +42,12 @@ export const projectsArray = [
   },
   {
     name: "3D WebD",
-    imgurl: "/projectsImgs/3D webD.png",
+    imgurl: "/projectsImgs/3D WebD.png",
     content:
       "A simple website integrated with 3D models & animations. Passionate about 3D & the metaverse, I crafted my first 3D website with React.js",
     //  For Best experience, explore on a laptop size screen.",
     liveLink: "https://ak3dweb.vercel.app",
     repoLink: "https://github.com/Githubak2002/React_with_Spline3D",
-  },
-
-  {
-    name: "Ui to Functional Web",
-    imgurl: "/projectsImgs/ui to react website.png",
-    content:
-      "Transforming UI designs into fully responsive and fully functional websites with React Router integration and more...",
-    liveLink: "https://ui-to-website.netlify.app",
-    repoLink: "https://github.com/Githubak2002/UI-to-website",
   },
 
   {
