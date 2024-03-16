@@ -31,7 +31,6 @@ export const projectsArray = [
     liveLink: "https://blog-app-z55p.onrender.com",
     repoLink: "https://github.com/Githubak2002/Simple-blog-app",
   },
-
   {
     name: "Movie website (API)",
     imgurl: "/projectsImgs/movie api.png",
@@ -41,14 +40,14 @@ export const projectsArray = [
     // liveLink: "https://ak-movie-api.netlify.app",
     repoLink: "https://github.com/Githubak2002/movie-website-api",
   },
-
   {
-    name: "E-commerce store",
-    imgurl: "/projectsImgs/Ecommerce_redux_store.png",
+    name: "3D WebD",
+    imgurl: "/projectsImgs/3D webD.png",
     content:
-      "A simple e-commerce store, using React.js, Redux, server & DB. With Implementation of full cart functionality.",
-    liveLink: "https://ak-redux-store.netlify.app",
-    repoLink: "https://github.com/Githubak2002/Redux-store-DB-server",
+      "A simple website integrated with 3D models & animations. Passionate about 3D & the metaverse, I crafted my first 3D website with React.js",
+    //  For Best experience, explore on a laptop size screen.",
+    liveLink: "https://ak3dweb.vercel.app",
+    repoLink: "https://github.com/Githubak2002/React_with_Spline3D",
   },
 
   {
@@ -61,6 +60,14 @@ export const projectsArray = [
   },
 
   {
+    name: "Ui to Functional Web",
+    imgurl: "/projectsImgs/ui to react website.png",
+    content:
+      "Transforming UI designs into fully responsive and fully functional websites with React Router integration and more...",
+    liveLink: "https://ui-to-website.netlify.app",
+    repoLink: "https://github.com/Githubak2002/UI-to-website",
+  },
+  {
     name: "Ui to Bank Website",
     imgurl: "/projectsImgs/ui to bank website.png",
     content:
@@ -68,14 +75,14 @@ export const projectsArray = [
     liveLink: "https://ui-to-bank-website.netlify.app",
     repoLink: "https://github.com/Githubak2002/bank-website-frontend",
   },
-  {
-    name: "Portfolio HTML CSS JS",
-    imgurl: "/projectsImgs/portfolio.png",
-    content:
-      "Practiced Html, css and javascript to create my first ever portfolio To start with React js. Displaying various projects in a fully responsive manner. ",
-    liveLink: "https://githubak2002.github.io/akportfolio/",
-    repoLink: "https://github.com/Githubak2002/akportfolio",
-  },
+  // {
+  //   name: "Portfolio HTML CSS JS",
+  //   imgurl: "/projectsImgs/portfolio.png",
+  //   content:
+  //     "Practiced Html, css and javascript to create my first ever portfolio To start with React js. Displaying various projects in a fully responsive manner. ",
+  //   liveLink: "https://githubak2002.github.io/akportfolio/",
+  //   repoLink: "https://github.com/Githubak2002/akportfolio",
+  // },
 
   // { name:"",
   //   imgurl:"",
@@ -346,7 +353,7 @@ export const experience = [
     title: "Freelancing - Stock Prediction Web App",
     subTitle: "Full Stack WebD || Feb - Mar 2024",
     details:
-      "I collaborated with a client from Dubai to develop a full-stack stock prediction app. Using React and Tailwind CSS, I built the frontend for a sleek UI, while implementing Clerk for authentication and EmailJS for a functional 'Contact Us' page. Meanwhile, my backend partner utilized Python and Flask to create predictive models for stock trends. Together, we delivered a comprehensive solution tailored to our client's needs.",
+      "I & my friend collaborated with a client from Dubai to develop a full-stack stock prediction app. Using React and Tailwind CSS, I built the frontend for a sleek UI, while implementing Clerk for authentication and EmailJS for a functional 'Contact Us' page. Meanwhile, my backend partner utilized Python and Flask to create predictive models for stock trends. Together, we delivered a comprehensive solution tailored to our client's needs.",
   },
   {
     title: "6 Weeks Inter with IBM Skill-Build",

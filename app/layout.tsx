@@ -3,6 +3,10 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import StarsCanvas from '@/components/StarBackground';
 import Nav from '@/components/Nav';
+
+// react-hot-toast
+import { Toaster } from 'react-hot-toast';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -20,6 +24,7 @@ export default function RootLayout({
       <body className={` ${inter.className} backgroundCSS    min-h-screen max-w-[1400px] mx-auto  overflow-x-hidden`}>
       {/* <body className={` ${inter.className}    bg-[#05030c] min-h-screen max-w-[1400px] mx-auto  overflow-x-hidden`}> */}
 
+        <Toaster />
         <StarsCanvas />
         <Nav />
         {children}

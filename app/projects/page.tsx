@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     // <section className="projectsFontCSS px-[3%] sm:px-[8%] mb-10">
-    <section className=" font3Css   ">
+    <section className=" font3Css md:px-4 px-0">
       <h2
         data-aos="zoom-in"
         className="text-center text-3xl sm:text-6xl my-6 txtOutlineCSS"
