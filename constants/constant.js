@@ -65,14 +65,8 @@ export const projectsArray = [
     // liveLink: "https://ak-movie-api.netlify.app",
     repoLink: "https://github.com/Githubak2002/movie-website-api",
   },
-  {
-    name: "Portfolio HTML CSS JS",
-    imgurl: "/projectsImgs/portfolio.png",
-    content:
-      "Practiced Html, css and javascript to create my first ever portfolio To start with React js. Displaying various projects in a fully responsive manner. ",
-    liveLink: "https://githubak2002.github.io/akportfolio/",
-    repoLink: "https://github.com/Githubak2002/akportfolio",
-  },
+  
+  
 
   // { name:"",
   //   imgurl:"",
@@ -343,7 +337,7 @@ export const experience = [
     title: "Freelancing - Stock Prediction Web App",
     subTitle: "Full Stack WebD || Feb - Mar 2024",
     details:
-      "I & my friend collaborated with a client from Dubai to develop a full-stack stock prediction app. Using React and Tailwind CSS, I built the frontend for a sleek UI, while implementing Clerk for authentication and EmailJS for a functional 'Contact Us' page. Meanwhile, my backend partner utilized Python and Flask to create predictive models for stock trends. Together, we delivered a comprehensive solution tailored to our client's needs.",
+      "I and my friend collaborated with a client from Dubai to develop a full-stack stock prediction app. Using React and Tailwind CSS, I built the frontend for a sleek UI, while implementing Clerk for authentication and EmailJS for a functional 'Contact Us' page. Meanwhile, my backend partner utilized Python and Flask to create predictive models for stock trends. Together, we delivered a comprehensive solution tailored to our client's needs.",
   },
   {
     title: "6 Weeks Inter with IBM Skill-Build",
