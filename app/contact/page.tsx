@@ -38,12 +38,12 @@ const Contack = () => {
 
       <h2
         data-aos="zoom-in"
-        className="text-3xl txtOutlineCSS text-center pt-10 pb-6 border-t-[1px]"
+        className="text-3xl txtOutlineCSS text-center pt-10 pb-6 border-t-[1px] border-[#ffffff78]"
       >
         Get in touch
       </h2>
 
-      <main className="flex items-center flex-wrap md:flex-row flex-col px-6 gap-4 pb-6 mb-10 border-b-[1px]">
+      <main className="flex items-center flex-wrap md:flex-row flex-col px-6 gap-4 pb-6 mb-10 border-[#ffffff78] border-b-[0.2px]">
         {/* <h2 className="text-center">Get instant reply!</h2> */}
         <div data-aos="zoom-in" className="sm:w-[45%] w-full">
           <Contact_us />

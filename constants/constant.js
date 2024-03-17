@@ -32,6 +32,15 @@ export const projectsArray = [
     repoLink: "https://github.com/Githubak2002/Simple-blog-app",
   },
   {
+    name: "Stock preciction web app",
+    imgurl: "/projectsImgs/StockWeb.png",
+    content:
+      "Users can access stock data visually through graphs for easy analysis. The app allows comparing two stocks and predicting stock trends.",
+    // "      using machine learning models.A Full-stack stock prediction app. Together, we delivered a comprehensive solution tailored to our client's needs.        Full-stack, fully functional blog website! using MERN stack. A space where users can explore a variety of engaging blog posts...",
+    liveLink: "https://photos.app.goo.gl/C5W3i8QakfsWBN6i7",
+    repoLink: "https://photos.app.goo.gl/C5W3i8QakfsWBN6i7",
+  },
+  {
     name: "3D WebD",
     imgurl: "/projectsImgs/3D WebD.png",
     content:
@@ -39,14 +48,6 @@ export const projectsArray = [
     //  For Best experience, explore on a laptop size screen.",
     liveLink: "https://ak3dweb.vercel.app",
     repoLink: "https://github.com/Githubak2002/React_with_Spline3D",
-  },
-  {
-    name: "Ui to Functional Web",
-    imgurl: "/projectsImgs/ui to react website.png",
-    content:
-      "Transforming UI designs into fully responsive and fully functional websites with React Router integration and more...",
-    liveLink: "https://ui-to-website.netlify.app",
-    repoLink: "https://github.com/Githubak2002/UI-to-website",
   },
   {
     name: "Ui to Bank Website",
@@ -57,6 +58,14 @@ export const projectsArray = [
     repoLink: "https://github.com/Githubak2002/bank-website-frontend",
   },
   {
+    name: "Ui to Functional Web",
+    imgurl: "/projectsImgs/ui to react website.png",
+    content:
+      "Transforming UI designs into fully responsive and fully functional websites with React Router integration and more...",
+    liveLink: "https://ui-to-website.netlify.app",
+    repoLink: "https://github.com/Githubak2002/UI-to-website",
+  },
+  {
     name: "Movie website (API)",
     imgurl: "/projectsImgs/movie api.png",
     content:
@@ -65,8 +74,6 @@ export const projectsArray = [
     // liveLink: "https://ak-movie-api.netlify.app",
     repoLink: "https://github.com/Githubak2002/movie-website-api",
   },
-  
-  
 
   // { name:"",
   //   imgurl:"",
