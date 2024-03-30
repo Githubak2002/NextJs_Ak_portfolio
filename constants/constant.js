@@ -58,6 +58,15 @@ export const projectsArray = [
     repoLink: "https://github.com/Githubak2002/bank-website-frontend",
   },
   {
+    name: "Ecommerce Store",
+    imgurl: "/projectsImgs/Ecommerce_redux_store.png",
+    content:
+      "A simple e-commerce store, using React.js, Redux, server & DB. With Implementation of full cart functionality.",
+    liveLink: "https://ak-redux-store.netlify.app",
+    repoLink:
+      "https://github.com/Githubak2002/simple-ecommerce-store-DB-server",
+  },
+  {
     name: "Ui to Functional Web",
     imgurl: "/projectsImgs/ui to react website.png",
     content:
@@ -73,6 +82,14 @@ export const projectsArray = [
     liveLink: "#",
     // liveLink: "https://ak-movie-api.netlify.app",
     repoLink: "https://github.com/Githubak2002/movie-website-api",
+  },
+  {
+    name: "Portfolio HTML CSS JS",
+    imgurl: "/projectsImgs/portfolio.png",
+    content:
+      "Practiced Html, css and javascript to create my first ever portfolio To start with React js. Displaying various projects in a fully responsive manner. ",
+    liveLink: "https://githubak2002.github.io/akportfolio",
+    repoLink: "https://github.com/Githubak2002/akportfolio",
   },
 
   // { name:"",
