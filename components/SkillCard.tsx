@@ -16,7 +16,7 @@ export default function SkillCard(props: any) {
   }, []);
   return (
     <main
-      data-aos="zoom-in"
+      data-aos="fade-up"
       className={`hover:bg-[#ffffff2b] hover:cursor-pointer hover:scale-125 transition-all ${slikk_css}`}
     >
       <Image
