@@ -24,3 +24,16 @@ Hero - https://www.hover.dev/components/heros
     <li><a href="https://twitter.com/Anurag_2023_">Twitter</a></li>
     <li><a href="https://drive.google.com/file/d/1OrZKuEtW979tChBNnp_fWkRdJdkIGma7/view">Resume Link</a></li>
 </ul>
+
+
+<ol>Predefined React UI components
+<li>
+  https://www.hover.dev/components/links (Some of the components are free to use)  
+</li>
+<li>
+  https://ui.aceternity.com/components/hero-parallax
+</li>
+
+</ol>
+
+
