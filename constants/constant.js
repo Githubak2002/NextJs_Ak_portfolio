@@ -391,7 +391,7 @@ export const education = [
   {
     heading: "B.Tech CS 2021 - 25",
     detail1: "College - SKIT jaipur, Rajasthan",
-    detail2: "Aggregate CGPA - 8.67 CGPA till 3rd sem",
+    detail2: "Aggregate CGPA - 8.63 CGPA till 4th sem",
   },
   {
     heading: "12th ~ 2nd PUC",

@@ -15,9 +15,16 @@ const Experience = () => {
               >
                 Experience
               </h3>
-              {/* <span className="text-sm font-bold tracking-wider uppercase text-white">
-                Vestibulum diam nunc
-              </span> */}
+              <span
+                data-aos={"fade-up"}
+                className="text-sm font-bold tracking-wider text-white"
+              >
+                13+ months Work Experience
+                <br />
+                1 Freelance Project
+                <br />
+                15+ Projects
+              </span>
             </div>
           </div>
 
