@@ -15,7 +15,7 @@ const Experience = () => {
               >
                 Experience
               </h3>
-              <span
+              <p
                 data-aos={"fade-up"}
                 className="text-sm font-bold tracking-wider text-white"
               >
@@ -24,7 +24,7 @@ const Experience = () => {
                 1 Freelance Project
                 <br />
                 15+ Projects
-              </span>
+              </p>
             </div>
           </div>
 
