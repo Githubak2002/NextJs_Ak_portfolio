@@ -5,7 +5,7 @@ import { projectsArray, projectsArray2 } from "../../constants/constant.js";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import { blender3D } from "../../constants/constant.js";
-import Card3D from "@/components/Card.jsx";
+import Card3D from "@/components/Card";
 
 //  AOS animation on scroll
 import AOS from "aos";

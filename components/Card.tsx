@@ -1,10 +1,10 @@
 import React from 'react';
 import "./3Dcard.css";
 
-const Card = (props) => {
+const Card = (props:any) => {
   
   const title = props.title;
-  console.log(title);
+  // console.log(props);
   return (
     <main className="cards flexCenter w-fit">
       <figure className="card">

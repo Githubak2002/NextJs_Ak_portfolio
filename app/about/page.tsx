@@ -4,11 +4,13 @@ import React, { useEffect } from "react";
 import { education, experience } from "@/constants/constant.js";
 import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
 
 //  AOS animation on scroll
 const aosInstance: any = AOS;
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the styles
+import Education from "@/components/Education";
 
 const abt_data =
   " I am passionate about picking up new talents, developing them, and using them to solve the real world problems. I constantly gain the knowledge and abilities that will help me to deal with the problems in the real world. I believe that I have the capability to face the problems and find a workable solution.";
@@ -77,6 +79,12 @@ const About = () => {
       <Skills />
 
       {/* =================== EXPERIENCE =================== */}
+      <Experience />
+
+      {/* =================== EDUACTION =================== */}
+      <Education />
+
+      {/*
       <h2
         data-aos="zoom-in"
         className="txtOutlineCSS text-center text-2xl sm:text-5xl my-4"
@@ -100,7 +108,6 @@ const About = () => {
         ))}
       </main>
 
-      {/* === EDUCATION === */}
       <h2
         data-aos="zoom-in"
         className="txtOutlineCSS text-center text-2xl sm:text-5xl mb-10 mt-20"
@@ -122,7 +129,7 @@ const About = () => {
             <h2 className="text-center ">{ele.detail2}</h2>
           </div>
         ))}
-      </main>
+      </main> */}
 
       <Footer />
     </section>

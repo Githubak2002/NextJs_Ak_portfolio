@@ -13,7 +13,9 @@ interface SkillSectionProps {
 
 const SkillSection: React.FC<SkillSectionProps> = ({ title, skills }) => (
   <main>
-    <h2 className="txtOutlineCSS py-10 text-3xl text-center">{title}</h2>
+    <h2 
+    data-aos={"fade-up"}
+    className="txtOutlineCSS py-10 text-3xl text-center">{title}</h2>
     <div className="skill flex flex-wrap justify-center gap-5 mx-5 align-center">
       {skills.map((skill, index) => (
         <div key={index} className="w-1/8">
@@ -24,12 +26,15 @@ const SkillSection: React.FC<SkillSectionProps> = ({ title, skills }) => (
   </main>
 );
 
-const Skills: React.FC = () => (
+const Skills: React.FC = () => 
+  (
   <main
     className="pb-20 pt-24 max-w-[960px] mx-auto"
     style={{ zIndex: 10, position: "relative" }}
   >
-    <h3 className="txtOutlineCSS text-center text-3xl">
+    <h3 
+    data-aos={"fade-up"}
+    className="txtOutlineCSS text-center text-3xl">
       Skills & <span className="text-white">Tech Stack</span>
     </h3>
 

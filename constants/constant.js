@@ -361,7 +361,7 @@ export const experience = [
     title: "Freelancing - Stock Prediction Web App",
     subTitle: "Full Stack WebD || Feb - Mar 2024",
     details:
-      "I and my friend collaborated with a client from Dubai to develop a full-stack stock prediction app. Using React and Tailwind CSS, I built the frontend for a sleek UI, while implementing Clerk for authentication and EmailJS for a functional 'Contact Us' page. Meanwhile, my backend partner utilized Python and Flask to create predictive models for stock trends. Together, we delivered a comprehensive solution tailored to our client's needs.",
+      "I and my friend collaborated with a client from Dubai to develop a full-stack stock prediction app. Using React and Tailwind CSS, I built the frontend for a sleek UI, while implementing Clerk for authentication. Meanwhile, my backend partner utilized Python and Flask to create predictive models for stock trends. Together, we delivered a comprehensive solution tailored to our client's needs.",
   },
   {
     title: "6 Weeks Inter with IBM Skill-Build",
