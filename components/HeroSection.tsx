@@ -23,16 +23,16 @@ const HeroSection = () => {
       transition={{ delay: 0.5, duration: 0.8 }}
       className="txtOutlineCSS "
     >
-      <main className="lg:mt-0 sm:mt-6 md:min-h-[86vh] min-h-[90vh] px-2 sm:p-20 sm:py-0 gap-y-6 flexCenter flex-col lg:flex-row ">
+      <main className="lg:mt-0 sm:mt-6 md:min-h-[86vh] min-h-[90vh] px-2 sm:p-20 sm:py-0 gap-y-6 flexCenter flex-col lg:flex-row">
         <div className="lg:w-1/2 sm:mb-8 lg:mb-0 sm:w-auto w-screen lg:text-left text-center ">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl  mb-3">
-            {/* <h1 className="font-black mb-3 text-2xl sm:text-4xl"> */}
+          <h1 className="text-2xl md:text-3xl">
             Hello! 👋🏼 I&#39; m <br />{" "}
-            <span className=" gradient-text2 txtOutlineCSS1 text-4xl sm:text-6xl ">
-              {" "}
-              ANURAG LOHAR
-            </span>
           </h1>
+          <h1 className=" gradient-text2 txtOutlineCSS1 text-4xl sm:text-6xl py-3">
+            ANURAG LOHAR
+          </h1>
+
+
 
           {/* React text TypeAnimation */}
           <TypeAnimation
