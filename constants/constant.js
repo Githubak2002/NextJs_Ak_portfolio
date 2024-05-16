@@ -79,8 +79,8 @@ export const projectsArray = [
     imgurl: "/projectsImgs/movie api.png",
     content:
       "A movie website, crafted with React JS and Tailwind CSS, fetches and displays extensive movie data through API integration.",
-    liveLink: "#",
-    // liveLink: "https://ak-movie-api.netlify.app",
+    // liveLink: "#",
+    liveLink: "https://ak-movie-api.netlify.app",
     repoLink: "https://github.com/Githubak2002/movie-website-api",
   },
   {
